@@ -49,9 +49,11 @@ const blogData = [{
 }];
 
 let tempBlogHTML = "";
-
+const blogId = "8505796167510599349";
 for (let i = 0; i < blogData.length; i++) {
-    tempBlogHTML = tempBlogHTML + "<article id='postNum-" + blogData[i].guid + "'><div class='container'><div class='row'><div class='col-md-12'><h2>" + blogData[i].title + "</h2><hr><div>" + blogData[i].description + "</div><i>Published: " + blogData[i].pubDate + "</i></div></div></div> <div class='row'><div class='col-md-12'><a target='_blank' href='https://www.blogger.com/comment.g?blogID=" + blogData[i].guid + "&amp;'> Post comment: <i class='fas fa-bullhorn'></i></a></div></div></div></article>";
+
+    tempBlogHTML = tempBlogHTML + "<article id='postNum-" + blogData[i].guid + "'><div class='container'><div class='row'><div class='col-md-12'><h2>" + blogData[i].title + "</h2><hr><div>" + blogData[i].description + "</div><ul class='list-unstyled'><li><i>Published: " + blogData[i].pubDate + "</i></li><li><a target='_blank' href='https://www.blogger.com/comment.g?blogID=8505796167510599349&amp;postID=" + blogData[i].guid.substring(51, blogData[i].guid.length) + "'> Post comment: <i class='fas fa-bullhorn'></i></a></li></ul></div></div></div> </div></article>";
 }
 
 document.querySelector("[data-module='blog']").innerHTML = tempBlogHTML;
+
