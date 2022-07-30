@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="keywords"
+        content="Scottsdale web site, build website scottsdale, Website Design Scottsdale , Web Development Scottsdale, Creative Design, apps, developer, small business, Scottsdale, Phoenix, Arizona, Branding, Marketing, Mulitimedia, web marketing" />
+    <meta name="description"
+        content="Aaron Smith is a website design and developer possessing a vast array of skills including: high-end web development, graphic design, creative design multimedia, corporate branding, marketing and graphic design." />
+    <meta name="revisit" content="14 days" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/brands.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/solid.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Aaron Smith:Web-Presence LLC</title>
+</head>
+<body data-design="option-2">
+    <div class="form-group" id="designOptions">
+        <div id="designPanel-1">
+            <ul>
+                <li><label class="radioContainer"><input type="radio" name="theme" value="option-1"><span
+                            class="checkmark"></span></label></li>
+                <li><label class="radioContainer"><input type="radio" name="theme" value="option-2" checked="true"><span
+                            class="checkmark"></span></label></li>
+                <li><label class="radioContainer"><input type="radio" name="theme" value="option-3"><span
+                            class="checkmark"></span></label></li>
+                <li><label class="radioContainer"><input type="radio" name="theme" value="option-4"><span
+                            class="checkmark"></span></label></li>
+            </ul>
+        </div>
+        <div id="designPanel-2"><label>Themes: </label></div>
+    </div>
+    <div class="d-flex flex-column flex-md-row align-items-center fixed-top bg-white border-bottom shadow-sm animated fadeInDown"
+        id="navWrap">
+        <h5 class="my-0 mr-md-auto font-weight-normal">
+            <a href="#" class="navbar-brand" data-portfolio="landingPg"><img data-tada="logo" src="img/MA_Logo.png"
+                    class="img-fluid animated"></a>
+        </h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a href="#" class="" data-portfolio="resume" onClick="javascript:showModule('resume')">Resume</a>
+            <a href="#" class="active" data-portfolio="applications"
+                onClick="javascript:showModule('applications')">Applications</a>
+            <a href="#" class="" data-portfolio="blog" onClick="javascript:showModule('blog')">Blog</a>
+            <a href="#" class="" data-portfolio="contact" onClick="javascript:showModule('contact')">Contact</a>
+        </nav>
+    </div>
+
+    <div class="container mediaStage">
+        <div class="row mt-5 animated fadeIn" data-module="applications">
+            <div class="col-md-9 no-gutters animated">
+                <div>
+                    <iframe class="mediaFrame" src="https://www.youtube.com/embed/uKp8-Y3SFwE?&amp;rel=0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0"
+                        allowfullscreen="" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen"
+                        oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+
+                    <div class="btn-group btn-block" role="group">
+                        <button type="button" class="btn btn-secondary"
+                            onClick="javascript:setActiveItem('previous')"><i class="fas fa-arrow-circle-left"></i>
+                            Previous</button>
+                        <button type="button" class="btn btn-secondary" onClick="javascript:setActiveItem('next')">Next
+                            <i class="fas fa-arrow-circle-right"></i></button>
+                    </div>
+
+                    <ul class="noStyle">
+                        <li>
+                            <h3 class="pt-3" id="activeName"> 1/13 - eCommerce Platform</h3>
+                        </li>
+                        <li>Details: <span id="activeDetails">Buy and sell with a light weight JavaScript web-app for
+                                all devices.</span>
+                        </li>
+                        <li id="activeSoftware">Software used: Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js</li>
+                        <li>Created: <span id="activeCreated">2020</span></li>
+                        <li><a href="https://github.com/aaronrs2002" target="_blank" id="activeGitHub"><i
+                                    class="fab fa-github  animated" data-tada="fa-github"></i> GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <h3 class="displayMobile videoListMobileTitle">All Projects:</h3>
+            <div class="col-md-3 videoList no-gutters animated">
+                <ul class="list-group"></ul>
+            </div>
+        </div>
+
+        <div class="card-deck mb-3 text-center  animated  mt-5 hide" data-module="resume">
+            <div class="card imgFrame mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal  capitalize">experience</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><i class="fas fa-building"></i></h1>
+                    <ul class="list-unstyled mt-3 mb-4" id="experienceList"></ul><button type="button"
+                        class="btn btn-lg btn-block btn-outline-primary"
+                        onClick="javascript:resumeDialog('experience')">More Info</button>
+                </div>
+            </div>
+            <div class="card imgFrame mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal  capitalize">skills</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><i class="fas fa-laptop-code"></i></h1>
+                    <ul class="list-unstyled mt-3 mb-4" id="skillsList"></ul>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary"
+                        onClick="javascript:resumeDialog('skills')">More Info</button>
+                </div>
+            </div>
+            <div class="card imgFrame mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal  capitalize">education</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><i class="fas fa-graduation-cap"></i></h1>
+                    <ul class="list-unstyled mt-3 mb-4" id="educationList"></ul>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary"
+                        onClick="javascript:resumeDialog('education')">More Info</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row  animated hide" data-module="contact">
+
+
+
+
+            <div class="col-md-12 animated fadeIn mt-5">
+                <form method="POST" id="portfolioContact" action="">
+                    <div class="form-group block">
+                        <ul>
+                            <li>
+                                <input type="hidden" name="url"
+                                    value="https://web-presence.biz/?utm_medium=exclude&amp;utm_source=exclude#"><input
+                                    type="text" name="legit" class="hide"><input type="text" class="form-control"
+                                    name="name" placeholder="Name" maxlength="50">
+                            </li>
+                            <li>
+                                <input type="email" class="form-control" name="email" maxlength="50"
+                                    placeholder="Email">
+                            </li>
+                            <li>
+                                <input type="text" class="form-control" name="phone" maxlength="19" placeholder="Phone">
+                            </li>
+                            <li>
+                                <textarea class="form-control" row="10" name="message" maxlength="1000"
+                                    placeholder="Message"></textarea>
+                            </li>
+                            <button type="submit" disabled="" class="btn btn-primary form-control">Submit</button>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="animated hide" data-module="blog">Blog</div>
+
+
+    <footer class="footer mt-auto py-3 animated fadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"><a class="p-2 " href="https://www.linkedin.com/in/aaronrs2002" target="_blank"
+                        title="linkedin"><i class="fab fa-linkedin animated" data-tada="fa-linkedin"></i></a><a
+                        class="p-2" href="https://github.com/aaronrs2002" target="_blank" title="github"><i
+                            class="fab fa-github animated" data-tada="fa-github"></i></a><a class="p-2"
+                        href="downloads/AaronSmithResume.pdf" target="_blank" title="resume"><i
+                            class="fas fa-file-pdf animated" data-tada="fa-file-pdf"></i></a><a class="p-2 "
+                        href="https://www.youtube.com/channel/UC_cqZ5WhobgOTFjRqcZKgKg" target="_blank"
+                        title="youTube Channel"><i class="fab fa-youtube animated" data-tada="fa-youtube"></i></a><a
+                        class="p-2" href="mailto:aaron@web-presence.biz" title="Email"><i
+                            class="far fa-paper-plane animated" data-tada="fa-paper-plane"></i></a></div>
+                <div class="col-md-6"></div>
+                <div class="col-md-3 ml-auto"> <small>Copyright 2022</small></div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="modal-dialog hide">
+        <div class="modal animated ">
+            <div class="modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="btn-group" role="group">
+
+                            <button type="button" alt="experience" class="btn btn-secondary active"
+                                onClick="javascript:resumeDialog('experience')">Experience</button>
+
+                            <button type="button" alt="skills" class="btn btn-secondary"
+                                onClick="javascript:resumeDialog('skills')">Skills</button>
+
+                            <button type="button" alt="education" class="btn btn-secondary"
+                                onClick="javascript:resumeDialog('education')">Education</button>
+
+                        </div>
+
+                        <button type="button" onClick="javascript:closeDialog()" class="close"><span
+                                aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div data-resume="experience"></div>
+                        <div data-resume="skills"></div>
+                        <div data-resume="education"></div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary btn-block"
+                            onClick="javascript:closeDialog()">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-backdrop fade show"></div>
+    </div>
+
+
+</body>
+<script src="js/portfolio.js"></script>
+<script src="js/blog.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/resume.js"></script>
+
+</html>
+
+<!--
+    const portfolio = [
+    {
+        "name": "eCommerce Platform",
+        "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
+        "thumb": "img/ecommThumb.jpg",
+        "youTube": "uKp8-Y3SFwE",
+        "details": "Buy and sell with a light weight JavaScript web-app for all devices.",
+        "gitHub": "https://github.com/aaronrs2002/e-comm/blob/main/README.md",
+        "created": "2020"
+    },
+-->
