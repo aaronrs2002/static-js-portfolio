@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -17,18 +18,20 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Aaron Smith:Web-Presence LLC</title>
 </head>
+
 <body data-design="option-2">
     <div class="form-group" id="designOptions">
         <div id="designPanel-1">
             <ul>
-                <li><label class="radioContainer"><input type="radio" name="theme" value="option-1"><span
-                            class="checkmark"></span></label></li>
-                <li><label class="radioContainer"><input type="radio" name="theme" value="option-2" checked="true"><span
-                            class="checkmark"></span></label></li>
-                <li><label class="radioContainer"><input type="radio" name="theme" value="option-3"><span
-                            class="checkmark"></span></label></li>
-                <li><label class="radioContainer"><input type="radio" name="theme" value="option-4"><span
-                            class="checkmark"></span></label></li>
+                <li><label class="radioContainer"><input type="radio" name="theme" value="option-1"
+                            onClick="javascript:updateDesign()"><span class="checkmark"></span></label></li>
+                <li><label class="radioContainer"><input type="radio" name="theme" value="option-2"
+                            onClick="javascript:updateDesign()" checked="true"><span class="checkmark"></span></label>
+                </li>
+                <li><label class="radioContainer"><input type="radio" name="theme" value="option-3"
+                            onClick="javascript:updateDesign()"><span class="checkmark"></span></label></li>
+                <li><label class="radioContainer"><input type="radio" name="theme" value="option-4"
+                            onClick="javascript:updateDesign()"><span class="checkmark"></span></label></li>
             </ul>
         </div>
         <div id="designPanel-2"><label>Themes: </label></div>
@@ -217,6 +220,7 @@
 
 
 </body>
+<script src="js/design.js"></script>
 <script src="js/portfolio.js"></script>
 <script src="js/blog.js"></script>
 <script src="js/navigation.js"></script>
