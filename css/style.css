@@ -1218,13 +1218,13 @@ body[data-design="option-2"] .imgFrame ul li {
 
 body[data-design="option-2"] footer,
 body[data-design="option-2"] .text-dark,
-body[data-design="option-2"] #navWrap a,
-body[data-design="option-2"] #navWrap a.active:hover {
+body[data-design="option-2"] #navWrap a {
     color: #fff;
     font-size: 1.5rem;
 }
 
-body[data-design="option-2"] #navWrap a:hover {
+body[data-design="option-2"] #navWrap a:hover,
+body[data-design="option-2"] #navWrap a.active:hover {
     color: #000;
 }
 
