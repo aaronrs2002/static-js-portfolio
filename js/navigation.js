@@ -1,4 +1,16 @@
 function showModule(module) {
+
+    if (module === "landingPg") {
+        document.querySelector("#navWrap").classList.add("hide");
+        document.querySelector("footer").classList.add("hide");
+    } else {
+        document.querySelector("#navWrap").classList.remove("hide");
+        document.querySelector("footer").classList.remove("hide");
+        document.querySelector("#navWrap").classList.add("fadeInDown");
+        document.querySelector("footer").classList.add("fadeInUp");
+
+    }
+
     [].forEach.call(document.querySelectorAll("[data-module]"), function (e) {
         e.classList.add("hide");
     });

@@ -14,6 +14,8 @@ for (let i = 0; i < footerLinks.length; i++) {
 }
 
 document.getElementById("footerIcons").innerHTML = footerIconsHTML;
+document.getElementById("landingPgIcons").innerHTML = footerIconsHTML;
+
 
 const today = new Date();
 document.getElementById("year").innerHTML = today.getFullYear();

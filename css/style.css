@@ -340,14 +340,6 @@ rgb(133, 132, 132)
     margin: auto;
 }
 
-.block {
-    display: block;
-}
-
-.hide {
-    display: none;
-}
-
 #addItem {
     position: absolute;
     z-index: 3;
@@ -2322,6 +2314,14 @@ body[data-design="option-4"] {
         border-top: 1px solid rgba(0, 0, 0, 0.125);
         border-bottom: none;
     }
+}
+
+.block {
+    display: block !important;
+}
+
+.hide {
+    display: none !important;
 }
 
 /*max-width 767*/

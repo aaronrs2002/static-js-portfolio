@@ -20,6 +20,12 @@
 </head>
 
 <body data-design="option-2">
+
+
+
+
+
+
     <div class="form-group" id="designOptions">
         <div id="designPanel-1">
             <ul>
@@ -36,12 +42,13 @@
         </div>
         <div id="designPanel-2"><label>Themes: </label></div>
     </div>
-    <div class="d-flex flex-column flex-md-row align-items-center fixed-top bg-white border-bottom shadow-sm animated fadeInDown"
+    <div class="d-flex flex-column flex-md-row align-items-center fixed-top bg-white border-bottom shadow-sm animated hide"
         id="navWrap">
         <h5 class="my-0 mr-md-auto font-weight-normal">
             <a href="#" class="navbar-brand" data-portfolio="landingPg"><img data-tada="logo" src="img/MA_Logo.png"
                     class="img-fluid animated" onmouseover="javascript:tadaRollover('logo')"
-                    onmouseout="javascript:tadaRollout('logo')" data-tada="logo"></a>
+                    onmouseout="javascript:tadaRollout('logo')" data-tada="logo"
+                    onClick="javascript:showModule('landingPg')"></a>
         </h5>
         <nav class="my-2 my-md-0 mr-md-3">
             <a href="#" class="" data-portfolio="resume" onClick="javascript:showModule('resume')">Resume</a>
@@ -51,6 +58,9 @@
             <a href="#" class="" data-portfolio="contact" onClick="javascript:showModule('contact')">Contact</a>
         </nav>
     </div>
+
+
+
     <div class="container mt-2 animated fadeIn hide" id="blogButtons">
         <div class="row">
             <div class="col-md-12">
@@ -68,7 +78,7 @@
     <div class="animated fadeIn hide mb-5" data-module="blog">Blog</div>
 
     <div class="container mediaStage">
-        <div class="row mt-5 animated fadeIn" data-module="applications">
+        <div class="row mt-5 animated fadeIn hide" data-module="applications">
             <div class="col-md-9 no-gutters animated">
                 <div>
                     <iframe class="mediaFrame" src="https://www.youtube.com/embed/uKp8-Y3SFwE?&amp;rel=0"
@@ -167,10 +177,36 @@
                 </form>
             </div>
         </div>
+
+
+        <div class="row justify-content-md-center animated" data-module="landingPg">
+            <div class="col-md-auto text-center landingPgCol animated fadeIn">
+                <ul>
+                    <li>
+                        <div><img src="img/MA_Logo.png" class="img-fluid"></div>
+                    </li>
+                    <li>
+                        <h2>Aaron Smith: Web Developer</h2>
+                    </li>
+                    <li>
+                        <div class="btn-group" role="group" aria-label="Default button group"><a href="#" class="p-2"
+                                data-portfolio="resume" onClick="javascript:showModule('resume')">Resume</a><a href="#"
+                                class="p-2" data-portfolio="applications"
+                                onClick="javascript:showModule('applications')">Applications</a><a href="#" class="p-2"
+                                data-portfolio="blog" onClick="javascript:showModule('blog')">Blog</a><a href="#"
+                                class="p-2" data-portfolio="contact"
+                                onClick="javascript:showModule('contact')">Contact</a></div>
+                    </li>
+                    <li id="landingPgIcons">
+
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
 
-    <footer class="footer mt-auto py-3 animated fadeInUp">
+    <footer class="footer mt-auto py-3 animated hide">
         <div class="container">
             <div class="row">
                 <div class="col-md-3" id="footerIcons"></div>
