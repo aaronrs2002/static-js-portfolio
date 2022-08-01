@@ -130,11 +130,6 @@ for (let i = 0; i < portfolio.length; i++) {
 document.querySelector(".videoList .list-group").innerHTML = videoList;
 function setActiveItem(whichItem) {
 
-    [].forEach.call(document.querySelectorAll("[data-movienum]"), function (e) {
-        e.classList.remove("active");
-    });
-    document.querySelector("[data-movienum='" + whichItem + "']").classList.add("active");
-
     if (!isNaN(whichItem) === false) {
         if (whichItem === "next") {
             activeItem = (Number(activeItem) + 1);
@@ -150,6 +145,12 @@ function setActiveItem(whichItem) {
     } else {
         activeItem = whichItem;
     }
+
+    [].forEach.call(document.querySelectorAll("[data-movienum]"), function (e) {
+        e.classList.remove("active");
+    });
+    document.querySelector("[data-movienum='" + activeItem + "']").classList.add("active");
+
     document.querySelector("iframe.mediaFrame").setAttribute("src", "https://www.youtube.com/embed/" + portfolio[activeItem].youTube + "?&amp;rel=0");
     document.getElementById("activeGitHub").setAttribute("href", portfolio[activeItem].gitHub);
     document.getElementById("activeSoftware").innerHTML = portfolio[activeItem].software;
