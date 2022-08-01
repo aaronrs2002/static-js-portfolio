@@ -23,3 +23,15 @@ function showModule(module) {
 if (localStorage.getItem("activeModule")) {
     showModule(localStorage.getItem("activeModule"));
 }
+
+function tadaRollover(element) {
+
+    document
+        .querySelector("[data-tada='" + element + "']")
+        .classList.add("tada");
+}
+function tadaRollout(element) {
+    document
+        .querySelector("[data-tada='" + element + "']")
+        .classList.remove("tada");
+}
