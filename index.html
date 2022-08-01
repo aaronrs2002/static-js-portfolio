@@ -50,9 +50,21 @@
             <a href="#" class="" data-portfolio="contact" onClick="javascript:showModule('contact')">Contact</a>
         </nav>
     </div>
+    <div class="container my-5 animated fadeIn hide" id="blogButtons">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Blog post: <span id="blogNumbers"></span></h1>
+                <div class="btn-group btn-block">
+                    <button type="button" class="btn btn-secondary" onClick="javascript:viewPosts('previous')">Previous
+                        Post</button>
+                    <button type="button" class="btn btn-secondary" onClick="javascript:viewPosts('next')">Next
+                        Post</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-    <div class="animated hide mb-5" data-module="blog">Blog</div>
+    <div class="animated fadeIn hide mb-5" data-module="blog">Blog</div>
 
     <div class="container mediaStage">
         <div class="row mt-5 animated fadeIn" data-module="applications">
