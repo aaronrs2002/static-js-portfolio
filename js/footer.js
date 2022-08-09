@@ -1,7 +1,7 @@
 const iconLinks = [
     { title: "linkedin", target: "_blank", url: "https://www.linkedin.com/in/aaronrs2002", iconClass: "fab fa-linkedin" },
     { title: "github", target: "_blank", url: "https://github.com/aaronrs2002", iconClass: "fab fa-github" },
-    { title: "resume", url: "downloads/AaronSmithResume.pdf", iconClass: "fas fa-file-pdf" },
+    { title: "resume", target: "", url: "https://web-presence.biz/downloads/AaronSmithResume.pdf", iconClass: "fas fa-file-pdf" },
     { title: "email", target: "", url: "mailto:aaron@web-presence.biz", iconClass: "far fa-paper-plane" },
     { title: "youtube", target: "_blank", url: "https://www.youtube.com/channel/UC_cqZ5WhobgOTFjRqcZKgKg", iconClass: "fab fa-youtube" },
     { title: "javascript-games", target: "_blank", url: "https://aaronrs2002.github.io/black-jack/", iconClass: "fas fa-dice" }];
