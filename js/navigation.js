@@ -41,9 +41,18 @@ function tadaRollover(element) {
     document
         .querySelector("[data-tada='" + element + "']")
         .classList.add("tada");
+
+    document
+        .querySelector("#footerIcons a i[data-tada='" + element + "']")
+        .classList.add("tada");
+
 }
 function tadaRollout(element) {
     document
         .querySelector("[data-tada='" + element + "']")
+        .classList.remove("tada");
+
+    document
+        .querySelector("#footerIcons a i[data-tada='" + element + "']")
         .classList.remove("tada");
 }
