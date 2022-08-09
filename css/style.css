@@ -291,6 +291,10 @@ body[data-design="option-4"] .btn-outline-primary {
     cursor: pointer;
 }
 
+#landingPgLinksTarget a {
+    padding: .5rem;
+}
+
 .btn-group.form-control {
     padding: 0;
 }

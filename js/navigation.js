@@ -1,3 +1,7 @@
+
+
+
+
 function showModule(module) {
 
     if (module === "landingPg") {
@@ -38,21 +42,30 @@ if (localStorage.getItem("activeModule")) {
 
 function tadaRollover(element) {
 
-    document
-        .querySelector("[data-tada='" + element + "']")
-        .classList.add("tada");
+    document.querySelector("[data-tada='" + element + "']").classList.add("tada");
+    if (document.querySelector("#footerIcons a i[data-tada='" + element + "']")) {
+        document.querySelector("#footerIcons a i[data-tada='" + element + "']").classList.add("tada");
+    }
 
-    document
-        .querySelector("#footerIcons a i[data-tada='" + element + "']")
-        .classList.add("tada");
 
 }
 function tadaRollout(element) {
-    document
-        .querySelector("[data-tada='" + element + "']")
-        .classList.remove("tada");
+    document.querySelector("[data-tada='" + element + "']").classList.remove("tada");
+    if (document.querySelector("#footerIcons a i[data-tada='" + element + "']")) {
+        document.querySelector("#footerIcons a i[data-tada='" + element + "']").classList.remove("tada");
+    }
 
-    document
-        .querySelector("#footerIcons a i[data-tada='" + element + "']")
-        .classList.remove("tada");
 }
+
+/*START ON LOAD JS HERE*/
+const navLinks = ["resume", "applications", "blog", "contact"];
+let navHTML = "";
+let activeLink = "";
+for (let i = 0; i < navLinks.length; i++) {
+    if (navLinks[i] === "application") {
+        activeLink = "active";
+    }
+    navHTML = navHTML + `<a href='#' class='${activeLink} ' data-portfolio='${navLinks[i]}' onClick='showModule("${navLinks[i]}")'><span class='capitalize'>${navLinks[i]}</span></a>`;
+}
+document.getElementById("mainNavLinksTarget").innerHTML = navHTML;
+document.getElementById("landingPgLinksTarget").innerHTML = navHTML;
