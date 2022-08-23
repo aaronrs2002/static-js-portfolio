@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-See the static portfolio live: https://aaronrs2002.github.io/static-js-portfolio/
+See the static portfolio live: https://aaronrs2002.github.io/static-js-portfolio/ OR HERE: https://web-presence.biz/
 
 You can use the [editor on GitHub](https://github.com/aaronrs2002/static-js-portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
