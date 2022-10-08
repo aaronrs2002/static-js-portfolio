@@ -568,6 +568,8 @@ iframe.modalMedia {
 .mediaFrame {
     width: 100%;
     min-height: 400px;
+
+    z-index: 1031;
 }
 
 .videoList {

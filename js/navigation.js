@@ -62,3 +62,34 @@ function tadaRollout(element) {
     }
 }
 
+/*safari iframe bug fix*/
+function screenCallback() {
+    if (document.fullscreen) {
+        console.log('looking for fullscreen.');
+        document.querySelector("footer").classList.remove("hide");
+        document.getElementById("navWrap").classList.remove("hide");
+    } else {
+        console.log('toggle fullscreen');
+
+        if (document.querySelector("footer.hide") === null) {
+            document.querySelector("footer").classList.add("hide");
+            document.getElementById("navWrap").classList.add("hide");
+        } else {
+            document.querySelector("footer").classList.remove("hide");
+            document.getElementById("navWrap").classList.remove("hide");
+        }
+
+
+    }
+}
+
+var ua = navigator.userAgent.toLowerCase();
+if (ua.indexOf('safari') !== -1) {
+    if (ua.indexOf('chrome') > -1) {
+        console.log("Chrome detected: " + navigator.userAgent.toLowerCase()); // Chrome
+    } else {
+        console.log("Safari detected: " + navigator.userAgent.toLowerCase()); // Safari
+        document.addEventListener('fullscreenchange', screenCallback);
+        document.addEventListener('webkitfullscreenchange', screenCallback);
+    }
+}
