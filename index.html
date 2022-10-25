@@ -22,7 +22,16 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Aaron Smith:Web-Presence LLC</title>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60449369-1"></script>
-    <script>function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-60449369-1")</script>
+    <script>
+        const urlStr = window.location.href;
+        if (urlStr.indexOf("file:///Users/") !== -1) {
+            console.log("Not running GA");
+        } else {
+            function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-60449369-1")
+        }
+    </script>
+    <!--
+    <script>function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-60449369-1")</script>-->
 </head>
 
 <body data-design="option-2">

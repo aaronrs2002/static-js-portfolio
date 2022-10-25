@@ -68,15 +68,18 @@ function screenCallback() {
         console.log('looking for fullscreen.');
         document.querySelector("footer").classList.remove("hide");
         document.getElementById("navWrap").classList.remove("hide");
+        document.getElementById("designOptions").classList.remove("hide");
     } else {
         console.log('toggle fullscreen');
 
         if (document.querySelector("footer.hide") === null) {
             document.querySelector("footer").classList.add("hide");
             document.getElementById("navWrap").classList.add("hide");
+            document.getElementById("designOptions").classList.add("hide");
         } else {
             document.querySelector("footer").classList.remove("hide");
             document.getElementById("navWrap").classList.remove("hide");
+            document.getElementById("designOptions").classList.remove("hide");
         }
 
 
