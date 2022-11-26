@@ -11,13 +11,13 @@ let landingPgIconsHTML = "";
 for (let i = 0; i < iconLinks.length; i++) {
     footerIconsHTML = footerIconsHTML + "<a class='p-2 ' href='" + iconLinks[i].url + "' target='" + iconLinks[i].target + "' title='" + iconLinks[i].title + "'><i class='" +
         iconLinks[i].iconClass + ` animated' onmouseover="javascript:tadaRollover('${iconLinks[i].iconClass}')" onmouseout="javascript:tadaRollout('${iconLinks[i].iconClass}')" data-tada='${iconLinks[i].iconClass}'></i></a>`;
-    /*if (i < iconLinks.length - 1) {
+    if (i < iconLinks.length - 1) {
         landingPgIconsHTML = footerIconsHTML;
-    }*/
+    }
 }
 
 document.getElementById("footerIcons").innerHTML = footerIconsHTML;
-document.getElementById("landingPgIcons").innerHTML = footerIconsHTML;
+document.getElementById("landingPgIcons").innerHTML = landingPgIconsHTML;
 
 const today = new Date();
 document.getElementById("year").innerHTML = today.getFullYear();

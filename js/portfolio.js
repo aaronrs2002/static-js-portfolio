@@ -5,7 +5,7 @@ const portfolio = [
         "thumb": "img/ecommThumb.jpg",
         "youTube": "uKp8-Y3SFwE",
         "details": "Buy and sell with a light weight JavaScript web-app for all devices.",
-        "gitHub": "https://github.com/aaronrs2002/e-comm/blob/main/README.md",
+        "gitHub": "https://github.com/aaronrs2002",
         "created": "2020"
     },
     {
@@ -14,7 +14,7 @@ const portfolio = [
         "thumb": "img/posThumb.jpg",
         "youTube": "XOqfLIvIrWw",
         "details": "Point of Sale Web Application includes Inventory, CMS, Analytics,  Data-Filter and Multi-User-Secure-Login.",
-        "gitHub": "https://github.com/aaronrs2002/pos-mern",
+        "gitHub": "https://github.com/aaronrs2002",
         "created": "2020"
     },
     {
@@ -23,7 +23,7 @@ const portfolio = [
         "thumb": "img/socialMediaApp.jpg",
         "youTube": "4QP8J0sY3iY",
         "details": "Compile all your favorite RSS feeds into one place. Filter out stories that don't interest you. Share feed networks, recommend your favorite posts and message with friends.",
-        "gitHub": "https://github.com/aaronrs2002/decentalized-social-media-webapp",
+        "gitHub": "https://github.com/aaronrs2002/social-media-tutorial",
         "created": "2020"
     },
     {
@@ -32,7 +32,7 @@ const portfolio = [
         "thumb": "img/cityDataAppThumb.jpg",
         "youTube": "LdNmOeIJJNU",
         "details": "Explore hiking trails, points of interest, parks, bus stops and so much more utilizing your town's open source data.",
-        "gitHub": "https://github.com/aaronrs2002/react-city-data",
+        "gitHub": "https://github.com/aaronrs2002",
         "created": "2020"
     },
     {
@@ -59,7 +59,7 @@ const portfolio = [
         "thumb": "img/cmsThumb2021.jpg",
         "youTube": "b60EjnnN6Tc",
         "details": "Create unlimited pages. Choose from an array of media options. Unlimited banners for each page. Add a blog to any page. Add an event module to any page. Add an image carousel to any page. Choose from numerous themes. Works on any device.",
-        "gitHub": "https://github.com/aaronrs2002/e-comm/blob/main/README.md",
+        "gitHub": "https://github.com/aaronrs2002/",
         "created": "2021"
     },
     {
@@ -68,7 +68,7 @@ const portfolio = [
         "thumb": "img/route66Thumb.jpg",
         "youTube": "KwK1gKxXInU",
         "details": "Route 66 blog with details and images regarding each town along the  \"Mother Road\".",
-        "gitHub": "https://github.com/aaronrs2002/route-66",
+        "gitHub": "https://github.com/aaronrs2002/",
         "created": "2020"
     },
     {
@@ -77,7 +77,7 @@ const portfolio = [
         "thumb": "img/recipeThumb.jpg",
         "youTube": "1Lw8QvlMfBY",
         "details": "Add, share and leave comment for your favorite recipes. All you need is a Gmail account.",
-        "gitHub": "https://github.com/aaronrs2002/recipe-web-app",
+        "gitHub": "https://github.com/aaronrs2002/",
         "created": "2019"
     },
     {
@@ -95,7 +95,7 @@ const portfolio = [
         "thumb": "img/customHomePageThumb.jpg",
         "youTube": "LSzs0jtbXpI",
         "details": "Custom Homepage Web App  - RSS feed API, YouTube API, weather API, custom themes, secure login, custom links with search filter, google calendar and responsive layout for all devices",
-        "gitHub": "https://github.com/aaronrs2002/custom-homepage",
+        "gitHub": "https://github.com/aaronrs2002/",
         "created": "2019"
     },
     {
@@ -104,7 +104,7 @@ const portfolio = [
         "thumb": "img/webTemplateThumb.jpg",
         "youTube": "pxmvfImaUH0",
         "details": "Content Management System with multiple layout options plus secure user login. Includes event app, blog, map, video, image carousel, Rich Text Editor, social media and contact components.  <a href='https://web-templates-6a6f1.web.app/?user=7IoD6zEANlVxeNeLw001O22k8JI2&' target='_blank'>Example User 1</a> , <a href='https://web-templates-6a6f1.web.app/?user=YRvF9srJvicNtiIqQ5nCmFD8YHt1&' target='_blank'>Example User 2</a>",
-        "gitHub": "https://github.com/aaronrs2002/web-templates-2020",
+        "gitHub": "https://github.com/aaronrs2002/",
         "created": "2019"
     },
     {
@@ -113,7 +113,7 @@ const portfolio = [
         "thumb": "img/weddingAppThumb.jpg",
         "youTube": "yx-ImV5Nggw",
         "details": "Organize your special day while providing every detail to your friends and family.",
-        "gitHub": "https://github.com/aaronrs2002/the-next-chapter-v2",
+        "gitHub": "https://github.com/aaronrs2002/",
         "created": "2020"
     }
 ];
