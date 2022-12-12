@@ -10,7 +10,7 @@ const portfolio = [
     },
     {
         "name": "Point of Sale - Web App",
-        "software": "React.js/Redux,Node.js,MongoDB,Bootstrap/CSS,JWT-Login",
+        "software": "React.js/Redux,Node.js, MongoDB, Bootstrap/CSS, JWT-Login",
         "thumb": "img/posThumb.jpg",
         "youTube": "XOqfLIvIrWw",
         "details": "Point of Sale Web Application includes Inventory, CMS, Analytics,  Data-Filter and Multi-User-Secure-Login.",
