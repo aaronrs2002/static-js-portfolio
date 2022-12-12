@@ -70,6 +70,7 @@ body[data-design="option-2"] {
     padding-top: 90px;
     max-width: 100%;
     overflow-x: hidden;
+    font-size: 1rem;
 }
 
 body[data-design="option-2"] .card-deck .card-header {
@@ -791,7 +792,7 @@ input[value="option-4"]+.checkmark {
 /*start blog css*/
 
 article {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 50px;
 }
 
