@@ -28,7 +28,7 @@ const portfolio = [
     },
     {
         "name": "City Data Web App",
-        "software": "JavaScript/React.js,CSS/Bootstrap,PHP-API",
+        "software": "JavaScript/React.js, CSS/Bootstrap, PHP-API",
         "thumb": "img/cityDataAppThumb.jpg",
         "youTube": "LdNmOeIJJNU",
         "details": "Explore hiking trails, points of interest, parks, bus stops and so much more utilizing your town's open source data.",
@@ -64,7 +64,7 @@ const portfolio = [
     },
     {
         "name": "Route 66",
-        "software": "MySQL,Node.js,OAuth2,Bootstrap,React.js",
+        "software": "MySQL, Node.js, OAuth2, Bootstrap, React.js",
         "thumb": "img/route66Thumb.jpg",
         "youTube": "KwK1gKxXInU",
         "details": "Route 66 blog with details and images regarding each town along the  \"Mother Road\".",
@@ -73,7 +73,7 @@ const portfolio = [
     },
     {
         "name": "Recipe Web App",
-        "software": "React.js,Node.js,MongoDB,Bootstrap/CSS,Google-Oauth",
+        "software": "React.js, Node.js, MongoDB, Bootstrap/CSS, Google-Oauth",
         "thumb": "img/recipeThumb.jpg",
         "youTube": "1Lw8QvlMfBY",
         "details": "Add, share and leave comment for your favorite recipes. All you need is a Gmail account.",
@@ -91,7 +91,7 @@ const portfolio = [
     },
     {
         "name": "Custom Homepage",
-        "software": "React.js,Google-Firebase,Bootstrap/CSS,Authentication,PHP-Rest-API",
+        "software": "React.js, Google-Firebase, Bootstrap/CSS, Authentication, PHP-Rest-API",
         "thumb": "img/customHomePageThumb.jpg",
         "youTube": "LSzs0jtbXpI",
         "details": "Custom Homepage Web App  - RSS feed API, YouTube API, weather API, custom themes, secure login, custom links with search filter, google calendar and responsive layout for all devices",
@@ -100,7 +100,7 @@ const portfolio = [
     },
     {
         "name": "Web Template with CMS",
-        "software": "React.js,Google-Firebase,Bootstrap/CSS,Authentication,PHP-Rest-API",
+        "software": "React.js, Google-Firebase, Bootstrap/CSS, Authentication, PHP-Rest-API",
         "thumb": "img/webTemplateThumb.jpg",
         "youTube": "pxmvfImaUH0",
         "details": "Content Management System with multiple layout options plus secure user login. Includes event app, blog, map, video, image carousel, Rich Text Editor, social media and contact components.  <a href='https://web-templates-6a6f1.web.app/?user=7IoD6zEANlVxeNeLw001O22k8JI2&' target='_blank'>Example User 1</a> , <a href='https://web-templates-6a6f1.web.app/?user=YRvF9srJvicNtiIqQ5nCmFD8YHt1&' target='_blank'>Example User 2</a>",
