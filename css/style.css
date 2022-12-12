@@ -1352,6 +1352,11 @@ body[data-design="option-3"] #designPanel-2 label {
     padding: 2rem 2rem 1.8rem 2rem !important;
 }
 
+[data-design="option-3"] h1,
+[data-design="option-3"] h2,
+[data-design="option-3"] h3,
+[data-design="option-3"] h4,
+[data-design="option-3"] h5,
 [data-design="option-3"] nav a.active[data-portfolio] {
     color: #fff;
 }
