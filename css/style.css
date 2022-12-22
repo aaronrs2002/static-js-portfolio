@@ -2342,10 +2342,10 @@ body[data-design="option-4"] {
 /*max-width 768*/
 @media (max-width: 768px) {
 
-    body[data-design="option-1"]::before,
-    body[data-design="option-2"]::before,
-    body[data-design="option-3"]::before,
-    body[data-design="option-4"]::before {
+    body.entered[data-design="option-1"]::before,
+    body.entered[data-design="option-2"]::before,
+    body.entered[data-design="option-3"]::before,
+    body.entered[data-design="option-4"]::before {
         content: "";
 
         position: fixed;

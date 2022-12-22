@@ -15,6 +15,12 @@ document.getElementById("landingPgLinksTarget").innerHTML = navHTML;
 
 
 function showModule(module) {
+
+    if (document.querySelector("body.entered") === null) {
+        console.log("show module fired")
+        document.querySelector("body").classList.add("entered");
+    }
+
     if (module === "landingPg") {
         document.querySelector("#navWrap").classList.add("hide");
         document.querySelector("footer").classList.add("hide");
@@ -45,9 +51,9 @@ function showModule(module) {
     }
 }
 
-if (localStorage.getItem("activeModule")) {
+/*if (localStorage.getItem("activeModule")) {//NO MORE PERSISTENCE THERE ARE ONLY A FEW PAGES
     showModule(localStorage.getItem("activeModule"));
-}
+}*/
 
 function tadaRollover(element) {
     document.querySelector("[data-tada='" + element + "']").classList.add("tada");
