@@ -4,7 +4,7 @@ const iconLinks = [
     { title: "resume", target: "", url: "https://mechanized-aesthetics.net/web-presence/downloads/AaronSmithResume.pdf", iconClass: "fas fa-file-pdf" },
     { title: "email", target: "", url: "mailto:aaron@web-presence.biz", iconClass: "far fa-paper-plane" },
     { title: "youtube", target: "_blank", url: "https://www.youtube.com/channel/UC_cqZ5WhobgOTFjRqcZKgKg", iconClass: "fab fa-youtube" },
-    { title: "vanilla-javascript-games", target: "_blank", url: "https://aaronrs2002.github.io/texas-holdem/", iconClass: "fas fa-dice" }];
+    { title: "vanilla-javascript-games", target: "_blank", url: "https://aaronrs2002.github.io/black-jack/", iconClass: "fas fa-dice" }];
 
 let footerIconsHTML = "";
 let landingPgIconsHTML = "";
