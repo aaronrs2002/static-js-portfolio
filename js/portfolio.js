@@ -1,13 +1,13 @@
 const portfolio = [
-    {
-        "name": "RV Park Administrator",
-        "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
-        "thumb": "img/rvParkThumSm.jpg",
-        "youTube": "dGyKJ_6UmWY",
-        "details": "RV Park Administrator is a web app that works on any device.  Save, email, print & evaluate transaction records - Guest timelines - Current, past and waiting guest details - Legal Contracts - Electricity monitoring for each unit - Post any message to your public website",
-        "gitHub": "https://github.com/aaronrs2002",
-        "created": "2021"
-    },
+    /* {
+         "name": "RV Park Administrator",
+         "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
+         "thumb": "img/rvParkThumSm.jpg",
+         "youTube": "",
+         "details": "RV Park Administrator is a web app that works on any device.  Save, email, print & evaluate transaction records - Guest timelines - Current, past and waiting guest details - Legal Contracts - Electricity monitoring for each unit - Post any message to your public website",
+         "gitHub": "https://github.com/aaronrs2002",
+         "created": "2021"
+     },*/
     {
         "name": "eCommerce Platform",
         "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
