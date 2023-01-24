@@ -742,12 +742,21 @@ input[value="option-4"]+.checkmark {
     display: none;
 }
 
-/* Show the indicator (dot/circle) when checked */
-.radioContainer input:checked~.checkmark:after {
-    display: block;
+
+.radioContainer input:checked~.checkmark {
+    border: 2px #e0c604 solid;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+
 }
 
-/* Style the indicator (dot/circle) */
+
+
+/* Show the indicator (dot/circle) when checked 
+.radioContainer input:checked~.checkmark:after {
+    display: block;
+}*/
+
+/* Style the indicator (dot/circle) 
 .radioContainer .checkmark:after {
     top: 8.5px;
     left: 8.5px;
@@ -755,7 +764,7 @@ input[value="option-4"]+.checkmark {
     height: 8px;
     border-radius: 50%;
     background: white;
-}
+}*/
 
 .radioContainer input[value="option-2"] .checkmark:after {
     top: 9px;
