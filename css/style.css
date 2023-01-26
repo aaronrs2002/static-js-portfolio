@@ -541,7 +541,7 @@ iframe.modalMedia {
     padding-left: 0px;
     list-style-type: none;
     font-size: 1rem;
-    max-width: 560px;
+    /*max-width: 560px;*/
 }
 
 .modal-body {
