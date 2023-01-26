@@ -69,7 +69,7 @@ const experience = [
 
     {
         employer: "Forever Living Products",
-        title: "Senior Graphic Designer/Front End Developer",
+        title: "Sr Graphic Designer/Front End Developer",
         link: "https://foreverliving.com/",
         start: "January 2007",
         end: "January 2015",
