@@ -591,12 +591,7 @@ iframe.modalMedia {
     border-top-right-radius: 0rem;
 }
 
-.videoList .list-group,
-.videoList .list-group .list-group-item {
-    margin-top: 25px;
-    margin-left: 10px;
-    margin-right: 30px;
-}
+
 
 
 .thumbContainer {
@@ -2404,6 +2399,13 @@ body[data-design="option-4"] {
 
     #designOptions {
         margin-top: 5%;
+    }
+
+    .videoList .list-group,
+    .videoList .list-group .list-group-item {
+        margin-top: 25px;
+        margin-left: 10px;
+        margin-right: 30px;
     }
 
     .thumbContainer {
