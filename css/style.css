@@ -591,6 +591,14 @@ iframe.modalMedia {
     border-top-right-radius: 0rem;
 }
 
+.videoList .list-group,
+.videoList .list-group .list-group-item {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+
 .thumbContainer {
     text-align: center;
 
@@ -606,7 +614,7 @@ i.play-float-icon {
     font-size: 5rem;
     margin: auto;
     position: absolute;
-    transform: translateY(-90%);
+    transform: translateY(-70%);
     left: 0;
     bottom: 0;
     right: 0;
