@@ -593,6 +593,10 @@ iframe.modalMedia {
 
 .thumbContainer {
     text-align: center;
+
+    height: 150px;
+    overflow: hidden;
+
     /*background: linear-gradient(#999, #999);*/
 }
 
@@ -602,11 +606,12 @@ i.play-float-icon {
     font-size: 5rem;
     margin: auto;
     position: absolute;
-    top: 0;
+    transform: translateY(-90%);
     left: 0;
     bottom: 0;
     right: 0;
-    margin-top: 15%;
+
+    /*margin-top: 15%;*/
 }
 
 .list-group-item.active {
@@ -2393,7 +2398,15 @@ body[data-design="option-4"] {
         margin-top: 5%;
     }
 
+    .thumbContainer {
+        height: 350px;
+    }
 
+    i.play-float-icon {
+
+        font-size: 10rem;
+
+    }
 
 }
 
