@@ -2405,12 +2405,14 @@ body[data-design="option-4"] {
     }
 
     .thumbContainer {
-        height: 300px;
+        height: 200px;
     }
 
     i.play-float-icon {
 
         font-size: 10rem;
+        top: 115px;
+
 
     }
 
