@@ -2404,6 +2404,16 @@ body[data-design="option-4"] {
         overflow: hidden;
     }
 
+    .thumbContainer {
+        height: 300px;
+    }
+
+    i.play-float-icon {
+
+        font-size: 10rem;
+
+    }
+
 }
 
 /* No greater than 900px, no less than 455px */
@@ -2415,15 +2425,6 @@ body[data-design="option-4"] {
 
 
 
-    .thumbContainer {
-        height: 300px;
-    }
-
-    i.play-float-icon {
-
-        font-size: 10rem;
-
-    }
 
 }
 
