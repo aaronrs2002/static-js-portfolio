@@ -2396,16 +2396,17 @@ body[data-design="option-4"] {
 
 @media ((max-width: 768px)) {
 
-    .list-group-item {
+    /*  .list-group-item {
 
         margin-left: 10px;
         margin-right: 30px;
         margin-top: 25px;
         overflow: hidden;
-    }
+    }*/
 
     .thumbContainer {
-        height: 200px;
+        height: 250px;
+        overflow: hidden;
     }
 
     i.play-float-icon {
