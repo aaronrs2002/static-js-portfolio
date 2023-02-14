@@ -2414,8 +2414,8 @@ body[data-design="option-4"] {
     i.play-float-icon {
 
         font-size: 10rem;
-        /*  transform: translateY(-45%);*/
-        top: 155px;
+        transform: translateY(-30%);
+        /* top: 155px; */
 
 
     }
