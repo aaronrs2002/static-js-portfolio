@@ -593,11 +593,10 @@ iframe.modalMedia {
 
 
 
-
 .thumbContainer {
     text-align: center;
 
-    height: 150px;
+
     overflow: hidden;
 
     /*background: linear-gradient(#999, #999);*/
@@ -609,7 +608,7 @@ i.play-float-icon {
     font-size: 5rem;
     margin: auto;
     position: absolute;
-    transform: translateY(-70%);
+    transform: translateY(-80%);
     left: 0;
     bottom: 0;
     right: 0;
@@ -2396,23 +2395,30 @@ body[data-design="option-4"] {
 
 @media ((max-width: 768px)) {
 
-    /*  .list-group-item {
+    a.list-group-item img {
+        max-height: auto;
+
+    }
+
+    a.list-group-item {
 
         margin-left: 10px;
         margin-right: 30px;
-        margin-top: 25px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
         overflow: hidden;
-    }*/
+    }
 
     .thumbContainer {
-        height: 250px;
+        max-height: 200px;
         overflow: hidden;
     }
 
     i.play-float-icon {
 
         font-size: 10rem;
-        top: 115px;
+        transform: translateY(-25%);
+        /* top: 145px;*/
 
 
     }

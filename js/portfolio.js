@@ -124,7 +124,7 @@ let videoList = "";
 for (let i = 0; i < portfolio.length; i++) {
 
     videoList = videoList + "<a href='#' onmouseover=\"javascript:rollover('pulse', " + i + ")\" data-movienum='" + i
-        + "' onClick='javascript:setActiveItem(" + Number(i) + ")' class='list-group-item list-group-item-action my-3'><div class='thumbContainer '><img src='" + portfolio[i].thumb
+        + "' onClick='javascript:setActiveItem(" + Number(i) + ")' class='list-group-item list-group-item-action'><div class='thumbContainer '><img src='" + portfolio[i].thumb
         + "' class='img-fluid animated'><i class='far fa-play-circle play-float-icon'></i></div><label> " + (i + 1) + ". " + portfolio[i].name + "</label></a>";
 }
 document.querySelector(".videoList .list-group").innerHTML = videoList;
@@ -159,7 +159,7 @@ function setActiveItem(whichItem) {
 }
 setActiveItem(0);
 
-//START APL THUM ROLLOVER
+//START APL THUMB ROLLOVER
 function rollover(animation, number) {
     const animatedItem = document.querySelector(
         "a.list-group-item[data-movienum='" + number + "']  .img-fluid"
