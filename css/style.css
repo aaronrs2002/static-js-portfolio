@@ -2393,12 +2393,9 @@ body[data-design="option-4"] {
 
 }
 
-@media ((max-width: 768px)) {
+@media (max-width: 768px) {
 
-    a.list-group-item img {
-        max-height: auto;
 
-    }
 
     a.list-group-item {
 
@@ -2410,14 +2407,14 @@ body[data-design="option-4"] {
     }
 
     .thumbContainer {
-        max-height: 200px;
-        overflow: hidden;
+        max-height: 250px !important;
+        overflow-y: hidden;
     }
 
     i.play-float-icon {
 
         font-size: 10rem;
-        transform: translateY(-25%);
+        transform: translateY(-45%);
         /* top: 145px;*/
 
 
