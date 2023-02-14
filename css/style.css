@@ -2422,7 +2422,7 @@ body[data-design="option-4"] {
 
 }
 
-/* No greater than 900px, no less than 455px */
+/* No greater than 900px, no less than 455px  */
 @media ((max-width: 768px) and (min-width: 455px)) {
 
     #designOptions {
