@@ -155,7 +155,7 @@ function setActiveItem(whichItem) {
     document.getElementById("activeGitHub").setAttribute("href", portfolio[activeItem].gitHub);
     document.getElementById("activeSoftware").innerHTML = portfolio[activeItem].software;
     document.getElementById("activeDetails").innerHTML = portfolio[activeItem].details;
-    document.getElementById("activeCreated").innerHTML = portfolio[activeItem].activeCreated;
+    document.getElementById("activeCreated").innerHTML = portfolio[activeItem].created;
 
     document.getElementById("activeName").innerHTML = (activeItem + 1) + "/" + portfolio.length + " " + portfolio[activeItem].name;
 }
