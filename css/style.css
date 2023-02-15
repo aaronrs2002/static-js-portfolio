@@ -579,7 +579,7 @@ iframe.modalMedia {
 }
 
 .videoList {
-    max-height: 600px;
+    max-height: 665px;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -596,7 +596,7 @@ iframe.modalMedia {
 .thumbContainer {
     text-align: center;
 
-
+    max-height: 200px;
     overflow: hidden;
 
     /*background: linear-gradient(#999, #999);*/
@@ -2399,22 +2399,22 @@ body[data-design="option-4"] {
 
     a.list-group-item {
 
-        margin-left: 10px;
-        margin-right: 30px;
-        margin-top: 3rem;
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 1.5rem;
         margin-bottom: 3rem;
         overflow: hidden;
     }
 
-    .thumbContainer {
-        max-height: 250px !important;
+    /*.thumbContainer {
+        max-height: 200px !important;
         overflow-y: hidden;
-    }
+    }*/
 
     i.play-float-icon {
 
         font-size: 10rem;
-        transform: translateY(-30%);
+        transform: translateY(-33%);
         /* top: 155px; */
 
 
