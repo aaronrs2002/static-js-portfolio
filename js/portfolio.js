@@ -1,4 +1,15 @@
 const portfolio = [
+
+
+    {
+        "name": "Client Based Management System",
+        "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
+        "thumb": "img/eventPlannerThumb.jpg",
+        "youTube": "YtIdekGIxrI",
+        "details": "Organize guests and employees, generate invoices, build a budget and timeline, organize a workflow and communicate with everyone.",
+        "gitHub": "https://github.com/aaronrs2002",
+        "created": "2023"
+    },
     {
         "name": "RV Park Administrator",
         "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
