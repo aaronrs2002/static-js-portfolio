@@ -91,15 +91,7 @@ const portfolio = [
         "gitHub": "https://github.com/aaronrs2002/",
         "created": "2019"
     },
-    {
-        "name": "Hotel Management Web App",
-        "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
-        "thumb": "img/hotelManagement.jpg",
-        "youTube": "LTEY3Y-RuMI",
-        "details": "Manage your hotel from any device.",
-        "gitHub": "https://github.com/aaronrs2002/",
-        "created": "2021"
-    },
+
     {
         "name": "Custom Homepage",
         "software": "React.js, Google-Firebase, Bootstrap/CSS, Authentication, PHP-Rest-API",
