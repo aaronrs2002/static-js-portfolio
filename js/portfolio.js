@@ -4,9 +4,9 @@ const portfolio = [
     {
         "name": "Client Based Management System",
         "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
-        "thumb": "img/eventPlannerThumb.jpg",
-        "youTube": "YtIdekGIxrI",
-        "details": "Organize guests and employees, generate invoices, build a budget and timeline, organize a workflow and communicate with everyone. <a href='https://youtu.be/vfpiaPv6dy0' target='_blank'>Watch demo video 2.</a>",
+        "thumb": "img/clienbasedManagementSystemmThumbV2.jpg",
+        "youTube": "vfpiaPv6dy0",
+        "details": "Organize guests and employees, generate invoices, build a budget and timeline, organize a workflow and communicate with everyone. <a href='https://youtu.be/YtIdekGIxrI' target='_blank'>Watch demo video 2.</a>",
         "gitHub": "https://github.com/aaronrs2002",
         "created": "2023"
     },
