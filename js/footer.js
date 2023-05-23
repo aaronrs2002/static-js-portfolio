@@ -3,7 +3,7 @@ const iconLinks = [
     { title: "github", target: "_blank", url: "https://github.com/aaronrs2002", iconClass: "fab fa-github" },
     { title: "resume", target: "_blank", url: "downloads/Resume-Aaron-Smith.pdf", iconClass: "fas fa-file-pdf" },
     { title: "email", target: "", url: "mailto:aaron@web-presence.biz", iconClass: "far fa-paper-plane" },
-    { title: "youtube", target: "_blank", url: "https://www.youtube.com/channel/UC_cqZ5WhobgOTFjRqcZKgKg", iconClass: "fab fa-youtube" },
+    { title: "youtube", target: "_blank", url: "https://www.youtube.com/@web-presence-developer", iconClass: "fab fa-youtube" },
     { title: "vanilla-javascript-games", target: "_blank", url: "https://aaronrs2002.github.io/black-jack/", iconClass: "fas fa-dice" }];
 
 let footerIconsHTML = "";
