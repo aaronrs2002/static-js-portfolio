@@ -78,16 +78,24 @@
     </div>
 
     <div class="container mt-2 animated fadeIn hide" id="blogButtons">
-        <div class="row">
-            <div class="col-md-12 mt-2">
+        <div class="row mt-2">
+            <div class="col-md-12">
                 <h1>Blog post: <span id="blogNumbers"></span></h1>
+            </div>
+
+            <div class="col-6 mr-0 pr-0">
+
                 <div class="btn-group btn-block">
-                    <button type="button" class="btn btn-secondary" onClick="javascript:viewPosts('previous')">Previous
-                        Post</button>
-                    <button type="button" class="btn btn-secondary" onClick="javascript:viewPosts('next')">Next
+                    <button type="button" class="btn btn-secondary btn-block"
+                        onClick="javascript:viewPosts('previous')">Previous
                         Post</button>
                 </div>
             </div>
+            <div class="col-6 ml-0 pl-0">
+                <button type="button" class="btn btn-secondary btn-block" onClick="javascript:viewPosts('next')">Next
+                    Post</button>
+            </div>
+
         </div>
     </div>
 
@@ -96,32 +104,43 @@
     <div class="container mediaStage">
         <div class="row mt-5 animated fadeIn hide" data-module="applications">
             <div class="col-md-9 no-gutters animated">
-                <div>
-                    <iframe class="mediaFrame" src="https://www.youtube.com/embed/YtIdekGIxrI?&amp;rel=0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0"
-                        allowfullscreen="" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen"
-                        oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+                <div class="row">
+                    <div class="col-md-12">
+                        <iframe class="mediaFrame" src="https://www.youtube.com/embed/YtIdekGIxrI?&amp;rel=0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            frameborder="0" allowfullscreen="" mozallowfullscreen="mozallowfullscreen"
+                            msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
+                            webkitallowfullscreen="webkitallowfullscreen"></iframe>
+                    </div>
 
-                    <div class="btn-group btn-block" role="group">
-                        <button type="button" class="btn btn-secondary"
+                    <div class="col-6 mr-0 pr-0">
+                        <button type="button" class="btn btn-secondary btn-block"
                             onClick="javascript:setActiveItem('previous')"><i class="fas fa-arrow-circle-left"></i>
                             Previous</button>
-                        <button type="button" class="btn btn-secondary" onClick="javascript:setActiveItem('next')">Next
+                    </div>
+                    <div class="col-6 ml-0 pl-0">
+                        <button type="button" class="btn btn-secondary btn-block"
+                            onClick="javascript:setActiveItem('next')">Next
                             <i class="fas fa-arrow-circle-right"></i></button>
                     </div>
 
-                    <ul class="noStyle px-3">
-                        <li>
-                            <h3 class="pt-3" id="activeName"> 1/13 - eCommerce Platform</h3>
-                        </li>
-                        <li>Details: <span id="activeDetails">Buy and sell with a light weight JavaScript web-app for
-                                all devices.</span>
-                        </li>
-                        <li id="activeSoftware">Software used: Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js</li>
-                        <li>Created: <span id="activeCreated">2020</span></li>
-                        <li><a href="https://github.com/aaronrs2002" target="_blank" id="activeGitHub"><i
-                                    class="fab fa-github  animated" data-tada="fa-github"></i> GitHub</a></li>
-                    </ul>
+
+                    <div class="col-md-12">
+                        <ul class="noStyle px-3">
+                            <li>
+                                <h3 class="pt-3" id="activeName"> 1/13 - eCommerce Platform</h3>
+                            </li>
+                            <li>Details: <span id="activeDetails">Buy and sell with a light weight JavaScript web-app
+                                    for
+                                    all devices.</span>
+                            </li>
+                            <li id="activeSoftware">Software used: Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js
+                            </li>
+                            <li>Created: <span id="activeCreated">2020</span></li>
+                            <li><a href="https://github.com/aaronrs2002" target="_blank" id="activeGitHub"><i
+                                        class="fab fa-github  animated" data-tada="fa-github"></i> GitHub</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <hr>
