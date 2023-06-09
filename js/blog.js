@@ -1,4 +1,12 @@
 const blogData = [
+
+    {
+        "title": "Ticket Management System - React.js Tutorial 7 (By Aaron Smith: Web-Presence LLC)",
+        "link": "https:\/\/web-presence-news.blogspot.com\/2023\/06\/tutorial-7.html",
+        "description": "<div class='row'><div class='col-md-6'><iframe style='width:100%;height:auto;min-height:270px' src='https://www.youtube.com/embed/yqD-9SQ-yQ8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe><p>In this lesson we gather the start end date for each ticket along with all the project steps start and stop dates for our timeline.</p><p>GitHub Code:<a href='https://github.com/aaronrs2002/workflow-tutorial-7' target='_blank'>https://github.com/aaronrs2002/workflow-tutorial-7</a></p></div><div class='col-md-6'><ul><li>00:25 - CSS Update active class goes yellow</li><li>01:51 - Sharing the date module dynamic max days</li><li>04:34 - Passing activeTicket between Modules</li><li>05:46 - code & padding refactoring</li><li>07:09 - Integrate date select module</li><li>10:42 - npm install Apex Charts</li><li>11:01 - Create timeline module</li><li>12:28 - Due date's migration to the ticketId</li><li>16:45 - React Hooks Apex Chart timeline</li><li>17:59 - Adding chart currentData object</li><li>18:38 - populateFields() function serving the timeline</li><li>26:52 - Validate and insert date menus</li><li>31:51 - Get workflow data for timeline</li><li>35:11 - Parsing nested objects from SQL</li><li>37:28 - User walk through</li><li>39:33 - Troubleshoot issues</li><li>42:14 - Update multiple SQL tables with one statement</li></ul><p>Web-Presence LLC</p></div></div>",
+        "pubDate": "Fri, 09 Jun 2023 16:24:00 ",
+        "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-7450383526664165384"
+    },
     {
         "title": "Ticket Management System - React.js Tutorial 6 (By Aaron Smith: Web-Presence LLC)",
         "link": "https:\/\/web-presence-news.blogspot.com\/2023\/06\/ticket-management-system-reactjs_1.html",
