@@ -1,5 +1,11 @@
 const blogData = [
-
+    {
+        "title": "Ticket Management System - React.js Tutorial 8 (By Aaron Smith: Web-Presence LLC)",
+        "link": "https:\/\/web-presence-news.blogspot.com\/2023\/06\/build-save-and-print-professional.html",
+        "description": "<div class='row'><div class='col-md-6'><iframe style='width:100%;height:auto;min-height:270px' src='https://www.youtube.com/embed/HzafZxSqYoY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe><p>In this lesson we gather the start end date for each ticket along with all the project steps start and stop dates for our timeline.</p> GitHub Code: <a href='https://github.com/aaronrs2002/workflow-tutorial-8' target='_blank'>https://github.com/aaronrs2002/workflow-tutorial-8</a></p></div ><div class='col-md-6'><ul><li>02:14 - Workflow module updates</li><li>19:39 - Server side invoice module</li><li>23:56 - Client side invoice module</li><li>25:20 - Local company data</li><li>26:51 - Client side invoice module</li><li>28:08 - Invoice variables</li><li>32:20 - Build item chart function</li><li>33:34 - Calculate Function</li><li>34:18 - Delete item function</li><li>35:29 - Add item function</li><li>39:52 - Updated invoice info</li><li>44:41 - Save invoice function</li><li>52:22 - Populate fields</li><li>01:00:18 - Set foe new invoice</li><li>01:01:43 - Display specific invoice</li><li>01:05:34 - Write invoice JSX</li> <li>01:25:18 - CSS updates</li><li>01:34:14 - Budget chart module</li><li>01:39:28 - Add date selector module</li><li>01:41:46 - Save invoice fix</li><li>01:42:56 - Finalized invoice save and print</li></ul><p>Web-Presence LLC</p></div></div >",
+        "pubDate": "Thu, 22 Jun 2023 22:58:00 ",
+        "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-3017837150938934194"
+    },
     {
         "title": "Ticket Management System - React.js Tutorial 7 (By Aaron Smith: Web-Presence LLC)",
         "link": "https:\/\/web-presence-news.blogspot.com\/2023\/06\/tutorial-7.html",
