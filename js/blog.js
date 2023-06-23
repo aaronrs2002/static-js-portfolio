@@ -228,7 +228,7 @@ const blogData = [
         "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-627902410394140441"
     }
 ];
-
+const blogDataLength = blogData.length;
 let tempBlogHTML = "";
 const blogId = "8505796167510599349";
 let blogScroll = 0;
@@ -244,7 +244,7 @@ function writePost(number) {
         + "'> Post comment: <i class='fas fa-bullhorn'></i></a></li></ul></div></div></div> </div></article>";
 }
 function viewPosts(direction) {
-    const blogDataLength = blogData.length;
+
     if (direction === "next") {
         blogScroll = blogScroll + 1;
         if (blogScroll >= blogDataLength) {
@@ -259,3 +259,20 @@ function viewPosts(direction) {
     writePost(blogScroll);
 }
 writePost(0);
+
+
+function updateBlog() {
+    let whichPost = document.getElementById("blogList").value;
+    if (whichPost === "default") {
+        return false;
+    } else {
+        writePost(parseInt(whichPost));
+        blogScroll = parseInt(whichPost);
+    }
+}
+
+let bloglistStr = "<option value='default'>Select a specific post</option>";
+for (let i = 0; i < blogData.length; i++) {
+    bloglistStr = bloglistStr + "<option value='" + i + "'>" + (i + 1) + ". " + blogData[i].pubDate + "</option>";
+}
+document.getElementById("blogList").innerHTML = bloglistStr;
