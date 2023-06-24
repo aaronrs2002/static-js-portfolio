@@ -273,6 +273,6 @@ function updateBlog() {
 
 let bloglistStr = "<option value='default'>Select a specific post</option>";
 for (let i = 0; i < blogData.length; i++) {
-    bloglistStr = bloglistStr + "<option value='" + i + "'>" + (i + 1) + ". " + blogData[i].pubDate.substring(0, 16) + ": " + blogData[i].title + "...</option>";
+    bloglistStr = bloglistStr + "<option value='" + i + "'>" + (i + 1) + ". " + blogData[i].pubDate.substring(0, 16) + ": " + blogData[i].title + "</option>";
 }
 document.getElementById("blogList").innerHTML = bloglistStr;
