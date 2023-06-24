@@ -257,6 +257,7 @@ function viewPosts(direction) {
         }
     }
     writePost(blogScroll);
+    document.getElementById("blogList").selectedIndex = 0;
 }
 writePost(0);
 
