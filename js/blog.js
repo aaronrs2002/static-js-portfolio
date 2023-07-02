@@ -267,3 +267,19 @@ function viewPosts(direction) {
     writePost(blogScroll);
 }
 writePost(0);
+
+function updateBlog() {
+    let whichPost = document.getElementById("blogList").value;
+    if (whichPost === "default") {
+        return false;
+    } else {
+        writePost(parseInt(whichPost));
+        blogScroll = parseInt(whichPost);
+    }
+}
+
+let bloglistStr = "<option value='default'>Select a specific post</option>";
+for (let i = 0; i < blogData.length; i++) {
+    bloglistStr = bloglistStr + "<option value='" + i + "'>" + (i + 1) + ". " + blogData[i].pubDate.substring(0, 16) + ": " + blogData[i].title + "</option>";
+}
+document.getElementById("blogList").innerHTML = bloglistStr;
