@@ -12,11 +12,11 @@ const education = [
         date: "Spring 2004",
     },
 
-    {
-        accomplished: "Study Abroad Program - Fine Art studies ",
-        school: "Cité Universitaire - Paris",
-        date: "Summer 1997",
-    },
+    /* {
+         accomplished: "Study Abroad Program - Fine Art studies ",
+         school: "Cité Universitaire - Paris",
+         date: "Summer 1997",
+     },*/
 ];
 
 const experience = [
@@ -91,7 +91,7 @@ const experience = [
         ],
     },
 
-    {
+    /*{
         employer: "Lawyer Edge",
         title: "Web Designer/Developer",
         link: "http://www.lawyeredge.com/",
@@ -107,6 +107,12 @@ const experience = [
             "Implementing new design techniques and tools to enhance existing projects",
         ],
     },
+
+
+
+
+
+    */
 ];
 
 const skills = [
