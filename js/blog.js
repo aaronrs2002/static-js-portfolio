@@ -1,5 +1,14 @@
 const blogData = [
 
+
+
+    {
+        "title": "JavaScript: Read &amp; Analyze Bank CSV/ASCII files",
+        "link": "https:\/\/web-presence-news.blogspot.com\/2023\/07\/javascript-read-analyze-bank-csvascii.html",
+        "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/lNk7VpwEJOY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>Read CSV/ASCII bank files with this freeJavaScript web application</p><p>Upload files to your browser's local storage for you to analyze. No API's just a static JavaScript banking tool.</p><p>Use the tool here:<br/><a href='https://aaronrs2002.github.io/analyze-bank-files/' target='_blank'>https://aaronrs2002.github.io/analyze-bank-files/</a></p><p>Open source code:<br/><a href='https://github.com/aaronrs2002/analyze-bank-files' target='_blank'>https://github.com/aaronrs2002/analyze-bank-files</a></p><p>ASCII delimited (a.k.a. comma delimited) is a much used exchange file format that is used and recognized by many database programs. An ASCII delimited file is a text file with the extension . csv. All fields of a record are on one line, separated typically by commas*.</p><p>Web-Presence LLC</p></div></div>",
+        "pubDate": "Thu, 20 Jul 2023 21:24:00 ",
+        "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-6994420513965578512"
+    },
     {
         "title": "IT Ticket manager & workflow platform (9 lesson tutorial - open source)",
         "link": "https:\/\/web-presence-news.blogspot.com\/2023\/07\/it-ticket-manager-workflow-platform-9.html",
