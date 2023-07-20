@@ -1,4 +1,12 @@
 const blogData = [
+
+    {
+        "title": "IT Ticket manager & workflow platform (9 lesson tutorial - open source)",
+        "link": "https:\/\/web-presence-news.blogspot.com\/2023\/07\/it-ticket-manager-workflow-platform-9.html",
+        "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/P-ml6DBINN4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>Includes a workflow task manager, a priority color coded task timeline, an invoice generator with budgeting system, a ticket time-clock module and a message board.</p><p><a href='https://www.youtube.com/watch?v=P-ml6DBINN4&list=PLxaq32Ptw4plKHJg3db4clRMNuxezJwR2' target='_blank'>Here is the youTube link for this playlist</a></p><p>Web-Presence LLC</p></div></div>",
+        "pubDate": "Thu, 20 Jul 2023 21:02:00 ",
+        "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-4229911439048823893"
+    },
     {
         "title": "Ticket Management System - React.js Tutorial 9 (By Aaron Smith: Web-Presence LLC)",
         "link": "https:\/\/web-presence-news.blogspot.com\/2023\/07\/ticket-management-system-reactjs.html",
