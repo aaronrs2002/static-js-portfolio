@@ -1,7 +1,19 @@
 const blogData = [
 
-
-
+    {
+        "title": "React.js Tutorial 2: From Cart to E-Commerce Web App",
+        "link": "https:\/\/web-presence-news.blogspot.com\/2023\/08\/reactjs-tutorial-2-from-cart-to-e.html",
+        "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/fYjBPcyz_Pw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>In this lesson we build our shopping page module where our products are randomly selected and displayed.</p><label>Lesson outline:</label><ul><li>00:15 - My original Mongo DB project</li> <li>06:18 - Shop page random display</li><li>10:07 - Build mapped JSX option 1</li><li>12:52 - Shop page with random display</li><li>18:55  - Adding CSS for loader animation</li><li>21:02 - Add working JSX from original project</li><li>23:09 - Make JSX adjustments for this project</li><li>26:37 - Multi pass useEffect()</li><li>27:42 - Never display same product twice</li></ul><p>GitHub:<br/><a href='https://github.com/aaronrs2002/cart-ecomm-tutorial-2' target='_blank'>https://github.com/aaronrs2002/cart-ecomm-tutorial-2</a></p><p>Web-Presence LLC</p></div></div>",
+        "pubDate": "Thu, 03 Aug 2023 15:29:00 ",
+        "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-7308868066976542308"
+    },
+    {
+        "title": "React.js Tutorial 1: From Cart to E-Commerce Web App",
+        "link": "https:\/\/web-presence-news.blogspot.com\/2023\/08\/reactjs-tutorial-1-from-cart-to-e.html",
+        "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/eCGVUais3Nc' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>In this lesson we pick from our 'cart' tutorial and build an API for our product search terms and images.</p><label>Lesson outline:</label><ul><li>00:06 - Update SQL database - we have new data coming in</li><li>00:34 - Building search terms array - Build an input field & button</li><li>01:46 - Update search words function</li><li>03:43 - Our resources include Bootstrap 5 documentation</li><li>08:06 - Create a default when no data exists</li><li>11:11 - Utilize React's useEffect() to get data on module load</li><li>13:29 - Update client side JSON object</li><li>15:34 - Update server side JSON object</li><li>21:05 - Switch from badge icon to button</li><li>23:02 - Grab All Items upon update success</li><li>24:10 - Create default items</li><li>25:00 - Avoid duplicate search terms</li><li>26:03 - Item images array</li><li>27:33 - Copy paste JSX</li><li>29:37 - Update client side images object</li><li>30:34 - Update sever side images object</li><li>31:04 - Load images on module load</li><li>35:12 - Image preview within the CMS (Content Management System)</li><li>36:23 - Custom CSS from CMS thumbnails</li><li>39:11 - Set images on module load</li><li>40:07 - More CSS trial & error</li><li>41:17 - Chrome inspector window for faster results</li><li>41:45 - Store arrays as URI component</li></ul><p>GitHub:<br/><a href='https://github.com/aaronrs2002/cart-ecomm-tutorial' target='_blank'>https://github.com/aaronrs2002/cart-ecomm-tutorial</a></p><p><a href='Required prerequisite tutorial: https://www.youtube.com/playlist?list=PLxaq32Ptw4pkHgzkOzkTkFJiVMp60iav-' target='_blank'>Required prerequisite tutorial</a></p><p>Web-Presence LLC</p></div></div>",
+        "pubDate": "Thu, 03 Aug 2023 15:27:00 ",
+        "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-3724542299370120741"
+    },
     {
         "title": "JavaScript: Read &amp; Analyze Bank CSV/ASCII files",
         "link": "https:\/\/web-presence-news.blogspot.com\/2023\/07\/javascript-read-analyze-bank-csvascii.html",
