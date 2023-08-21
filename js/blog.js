@@ -1,6 +1,13 @@
 const blogData = [
 
     {
+        "title": "React.js Tutorial 3: From Cart to E-Commerce Web App",
+        "link": "https:\/\/web-presence-news.blogspot.com\/2023\/08\/reactjs-tutorial-3-from-cart-to-e.html",
+        "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/iZnrf1yQG1U' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>In this lesson write the product details module.</p><label>Lesson outline:</label><ul><li>03:33 - Passing selected item ideas</li><li>09:15 - Rectoring solution</li><li>09:35 - Product image library</li><li>13:44 Product quantity selected</li><li>16:33 - JSX refactoring</li><li>21:19 - Submit to cart within App.js</li><li>29:22 - Save sales locally for temporary confirmation</li><li>30:29 - Bootstrap 5 utilities</li></ul><p>GitHub:<br/><a href='https://github.com/aaronrs2002/cart-ecomm-tutorial-3' target='_blank'>https://github.com/aaronrs2002/cart-ecomm-tutorial-3</a></p><p>Web-Presence LLC</p></div></div>",
+        "pubDate": "Mon, 21 Aug 2023 14:32:00 ",
+        "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-1364411028278314936"
+    },
+    {
         "title": "React.js Tutorial 2: From Cart to E-Commerce Web App",
         "link": "https:\/\/web-presence-news.blogspot.com\/2023\/08\/reactjs-tutorial-2-from-cart-to-e.html",
         "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/fYjBPcyz_Pw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>In this lesson we build our shopping page module where our products are randomly selected and displayed.</p><label>Lesson outline:</label><ul><li>00:15 - My original Mongo DB project</li> <li>06:18 - Shop page random display</li><li>10:07 - Build mapped JSX option 1</li><li>12:52 - Shop page with random display</li><li>18:55  - Adding CSS for loader animation</li><li>21:02 - Add working JSX from original project</li><li>23:09 - Make JSX adjustments for this project</li><li>26:37 - Multi pass useEffect()</li><li>27:42 - Never display same product twice</li></ul><p>GitHub:<br/><a href='https://github.com/aaronrs2002/cart-ecomm-tutorial-2' target='_blank'>https://github.com/aaronrs2002/cart-ecomm-tutorial-2</a></p><p>Web-Presence LLC</p></div></div>",
