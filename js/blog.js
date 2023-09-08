@@ -1,21 +1,12 @@
 const blogData = [
 
     {
-        "title": "React.js Tutorial 5 - From cart to e-com web app: Build a rating and review module & API",
+        "title": "React.js Tutorial 5 - From cart to e-commerce web app: Build a rating and review module & API",
         "link": "https:\/\/web-presence-news.blogspot.com\/2023\/08\/reactjs-tutorial-5-from-cart-to-e-com.html",
         "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/Z54ZEkYYgC0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe><p>In this lesson we build a purchase verified rating and review api and module.</p><p>GitHub:<br/><a href='https://github.com/aaronrs2002/cart-ecomm-tutorial-5/' target='_blank'>https://github.com/aaronrs2002/cart-ecomm-tutorial-5/</a></p></div><div class='col-md-6'><label>Lesson outline:</label><ul><li>00:14 - Update database for reviews data</li>  <li>02:17 - Write server side node.js for reviews data</li>  <li>08:24 - Utilize my old MongoDB e-comm web app</li>  <li>09:06 - Leave a review API module</li>  <li>11:50 - Add send review function & comment form</li>  <li>12:08 - Remove JavaScript & HTML we do not use</li>  <li>13:15 - Write a global timestamp function</li>  <li>14:58 - Refactor old code for review module</li>  <li>17:18 - Update items table when review is submitted</li>  <li>18:31 - React useEffect() for comment module</li>  <li>22:46 - Star rating component</li>  <li>24:56 - Refactor star component with mapping</li>  <li>30:30 - Write client side, update rating info on items table</li>  <li>35:41 - Display overall review average</li>  <li>37:54 - Reset MySQL default data</li>  <li>43:15 - Determine if user has verified purchase</li>  <li>44:53 - Write product comments</li>  <li>51:29 - Clear all DB reviews</li>  <li>52:20 - Server side request purchase info from specific users</li>  <li>55:30 - Set UI for verified purchase</li>  <li>59:02 - Fine tuning - spacing and padding</li>  <li>01:00:36 - Pass grab item function to child modules </li>  <li>01:02:57 - Auto populate previous comment and rating</li>  <li>01:05:20 - Allow only one review by hiding button</li>  <li>01:07:45 - Protect SQL database from illegal characters</li>  <li>01:08:31 - Move user purchases request to parent App.js</li>  </ul><p>Web-Presence LLC</p></div></div>",
         "pubDate": "Thu, 07 Sep 2023 13:56:00 ",
         "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-5981856961682260280"
     },
-
-
-
-
-
-
-
-
-
 
     {
         "title": "React.js Tutorial 4: From Cart to E-Commerce Web App",
