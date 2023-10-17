@@ -1,13 +1,20 @@
 const portfolio = [
 
-
     {
+        "name": "eCommerce Platform",
+        "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
+        "thumb": "img/ecommThumb.jpg",
+        "youTube": "vNGmP2IxP6A",
+        "details": "Sales & Ordering Analytics - Content Management System - JSON web token multi-user login - Sales review options - Inventory module",
+        "gitHub": "https://github.com/aaronrs2002/cart-ecomm-tutorial-9",
+        "created": "2023"
+    }, {
         "name": "Client Based Management System",
         "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
         "thumb": "img/clienbasedManagementSystemmThumbV2.jpg",
         "youTube": "vfpiaPv6dy0",
         "details": "Organize guests and employees, generate invoices, build a budget and timeline, organize a workflow and communicate with everyone. <a href='https://youtu.be/YtIdekGIxrI' target='_blank'>Watch demo video 2.</a>",
-        "gitHub": "https://github.com/aaronrs2002",
+        "gitHub": "https://github.com/aaronrs2002/cart-ecomm-tutorial-9",
         "created": "2023"
     },
     {
@@ -19,15 +26,7 @@ const portfolio = [
         "gitHub": "https://github.com/aaronrs2002",
         "created": "2021"
     },
-    {
-        "name": "eCommerce Platform",
-        "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
-        "thumb": "img/ecommThumb.jpg",
-        "youTube": "uKp8-Y3SFwE",
-        "details": "Buy and sell with a light weight JavaScript web-app for all devices.",
-        "gitHub": "https://github.com/aaronrs2002",
-        "created": "2020"
-    },
+
     {
         "name": "Point of Sale - Web App",
         "software": "React.js/Redux,Node.js, MongoDB, Bootstrap/CSS, JWT-Login",
