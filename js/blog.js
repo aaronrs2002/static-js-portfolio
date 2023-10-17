@@ -1,5 +1,26 @@
 const blogData = [
 
+    {
+        "title": "Final walk through - React.js Tutorial 9 - From cart to e-commerce web app",
+        "link": "https:\/\/web-presence-news.blogspot.com\/2023\/10\/final-walk-through-reactjs-tutorial-9.html",
+        "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/RPkT6phmBaY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe><p>Here we tie up a few UI issues, sort our data using SQL and add a cancel feature the 'order item' module. Then, we simply walk through our application one final time.</p><p><a href='https://github.com/aaronrs2002/cart-ecomm-tutorial-9' target='_blank'>GitHub: https://github.com/aaronrs2002/cart-ecomm-tutorial-9</a></p><p>Web-Presence LLC</p></div><div class='col-md-6'><label>Lesson outline:</label><ul><li>02:45 - Clear order field upon order success</li> <li>03:25 - Mobile walk through 1</li> <li>05:11 - Adding 'card' class to order log</li> <li>07:04 - SQL ORDER BY - Sorting on the server side <br/> HELPFUL TIP - For inventory consider using 'DESC' so your last order comes up at the top. For example:<br/><samp>`SELECT * FROM inventory WHERE itemName = '${req.params.itemName}' ORDER BY userTimestamp DESC`</samp></li> <li>08:53 - Order cancellations - is a simple update to an existing function</li><li>09:17 - Ternary operator for each case ('received','ordering','cancelled')</li> <li>15:29 - Final walk through</li> <li>18:31 - Responsive/Mobile walk through</li> </ul></div></div>",
+        "pubDate": "Tue, 17 Oct 2023 00:32:43 ",
+        "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-8833648543735843839"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     {
         "title": "Order and Review component - React.js Tutorial 8 - From cart to e-commerce web app",
