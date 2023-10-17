@@ -7,21 +7,6 @@ const blogData = [
         "pubDate": "Tue, 17 Oct 2023 00:32:43 ",
         "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-8833648543735843839"
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
         "title": "Order and Review component - React.js Tutorial 8 - From cart to e-commerce web app",
         "link": "https:\/\/web-presence-news.blogspot.com\/2023\/10\/order-and-review-component-reactjs.html",
