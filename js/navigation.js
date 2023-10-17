@@ -4,11 +4,11 @@ const navLinks = ["resume", "applications", "blog", "contact"];
 let navHTML = "";
 let activeLink = "";
 for (let i = 0; i < navLinks.length; i++) {
-    if (navLinks[i] === "applications") {
-        activeLink = "active";
-    } else {
-        activeLink = "";
-    }
+    /*   if (navLinks[i] === "applications") {
+           activeLink = "active";
+       } else {
+           activeLink = "";
+       }*/
     navHTML = navHTML + `<a href='#' class='${activeLink} capitalize' data-portfolio='${navLinks[i]}' onClick='showModule("${navLinks[i]}")'>${navLinks[i][0].toUpperCase() + navLinks[i].slice(1).toLowerCase()}</a>`;
 }
 document.getElementById("mainNavLinksTarget").innerHTML = navHTML;
