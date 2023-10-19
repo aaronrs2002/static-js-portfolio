@@ -5,7 +5,7 @@ const portfolio = [
         "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
         "thumb": "img/ecommThumb.jpg",
         "youTube": "vNGmP2IxP6A",
-        "details": "Sales & Ordering Analytics - Content Management System - JSON web token multi-user login - Sales review options - Inventory module",
+        "details": "Sales & Ordering Analytics - Content Management System - JSON web token multi-user login - Sales review options - Inventory module - <a href='https://www.youtube.com/watch?v=uKp8-Y3SFwE' target='_blank'>View 2020 e-comm legacy version 1.0 here.</a>",
         "gitHub": "https://github.com/aaronrs2002/cart-ecomm-tutorial-9",
         "created": "2023"
     }, {
@@ -14,7 +14,7 @@ const portfolio = [
         "thumb": "img/clienbasedManagementSystemmThumbV2.jpg",
         "youTube": "vfpiaPv6dy0",
         "details": "Organize guests and employees, generate invoices, build a budget and timeline, organize a workflow and communicate with everyone. <a href='https://youtu.be/YtIdekGIxrI' target='_blank'>Watch demo video 2.</a>",
-        "gitHub": "https://github.com/aaronrs2002/cart-ecomm-tutorial-9",
+        "gitHub": "https://github.com/aaronrs2002/",
         "created": "2023"
     },
     {
