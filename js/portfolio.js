@@ -5,7 +5,7 @@ const portfolio = [
         "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
         "thumb": "img/ecommThumb.jpg",
         "youTube": "vNGmP2IxP6A",
-        "details": "Sales & Ordering Analytics - Content Management System - JSON web token multi-user login - Sales review options - Inventory module - <a href='https://www.youtube.com/watch?v=uKp8-Y3SFwE' target='_blank'>View 2020 e-comm legacy version 1.0 here.</a>",
+        "details": "Sales & Ordering Analytics - Content Management System - JSON web token multi-user login - Sales review options - Inventory module - <a href='#' onClick='populateScreen(&#34uKp8-Y3SFwE&#34)' >View 2020 e-comm legacy version 1.0 here.</a>",
         "gitHub": "https://github.com/aaronrs2002/cart-ecomm-tutorial-9",
         "created": "2023"
     }, {
@@ -13,7 +13,7 @@ const portfolio = [
         "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
         "thumb": "img/clienbasedManagementSystemmThumbV2.jpg",
         "youTube": "vfpiaPv6dy0",
-        "details": "Organize guests and employees, generate invoices, build a budget and timeline, organize a workflow and communicate with everyone. <a href='https://youtu.be/YtIdekGIxrI' target='_blank'>Watch demo video 2.</a>",
+        "details": "Organize guests and employees, generate invoices, build a budget and timeline, organize a workflow and communicate with everyone. <a href='#' onClick='populateScreen(&#34YtIdekGIxrI&#34)' >Watch demo video 2.</a>",
         "gitHub": "https://github.com/aaronrs2002/",
         "created": "2023"
     },
@@ -162,6 +162,11 @@ function setActiveItem(whichItem) {
     document.getElementById("activeName").innerHTML = (activeItem + 1) + "/" + portfolio.length + " " + portfolio[activeItem].name;
 }
 setActiveItem(0);
+
+function populateScreen(ytId) {
+    console.log("ytId: " + ytId);
+    document.querySelector("iframe.mediaFrame").setAttribute("src", "https://www.youtube.com/embed/" + ytId + "?&amp;rel=0");
+}
 
 //START APL THUM ROLLOVER
 function rollover(animation, number) {
