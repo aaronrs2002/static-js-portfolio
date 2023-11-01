@@ -33,15 +33,19 @@ const Validate = (fields) => {
         try {
             if (document.querySelector("[name='" + fields[i] + "']").value) {
                 value = document.querySelector("[name='" + fields[i] + "']").value;
-                if (blkList.indexOf(fields[i]) !== -1) {
-                    globalAlert("alert-warning", fields[i] + ". I got your email and responded already.")
-                }
 
             }
         } catch (err) {
             document
                 .querySelector("[name='" + fields[i] + "']")
                 .classList.add("error");
+        }
+
+        if (blkList.indexOf(value) !== -1) {
+            globalAlert("alert-warning", value + ". I got your email and responded already.");
+            return false;
+        } else {
+            console.log(value + " passes list.");
         }
 
         const maxCharNum = document
