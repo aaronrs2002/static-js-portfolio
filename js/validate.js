@@ -1,7 +1,25 @@
 
+const blkList = ["harshitb2712@gmail.com"];
+
+//START GLOBAL ALERT
+function globalAlert(alertLevel, message) {
+
+    document.getElementById("globalAlert").classList.remove("hide");
+    document.getElementById("globalAlert").classList.add(alertLevel);
+    document.getElementById("globalAlert").classList.add("animated");
+    document.getElementById("globalAlert").innerHTML = message;
+
+    setTimeout(function () {
+        document.getElementById("globalAlert").classList.add("hide");
+        document.getElementById("globalAlert").classList.remove(alertLevel);
+    }, 5000);
+
+}
+
 const Validate = (fields) => {
     const letterOnly = /^[a-zA-Z\s-.]*$/;
     const numOnly = /^[0-9-().+]+$/;
+
 
     if (document.querySelector("input[name='legit']").value) {
         document.querySelector("input[name='legit']").classList.add("error");
@@ -15,6 +33,10 @@ const Validate = (fields) => {
         try {
             if (document.querySelector("[name='" + fields[i] + "']").value) {
                 value = document.querySelector("[name='" + fields[i] + "']").value;
+                if (blkList.indexOf(fields[i]) !== -1) {
+                    globalAlert("alert-warning", fields[i] + ". I got your email and responded already.")
+                }
+
             }
         } catch (err) {
             document
