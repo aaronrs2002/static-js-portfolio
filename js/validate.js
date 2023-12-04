@@ -1,5 +1,6 @@
 
-const blkList = ["harshitb2712@gmail.com"];
+const blkList = ["harshitb2712@gmail.com", "donfrenette@yahoo.com"];
+let email = "";
 
 //START GLOBAL ALERT
 function globalAlert(alertLevel, message) {
@@ -41,12 +42,7 @@ const Validate = (fields) => {
                 .classList.add("error");
         }
 
-        if (blkList.indexOf(value) !== -1) {
-            globalAlert("alert-warning", value + ". I got your email and responded already.");
-            return false;
-        } else {
-            console.log(value + " passes list.");
-        }
+
 
         const maxCharNum = document
             .querySelector("[name='" + fields[i] + "']")
@@ -64,7 +60,9 @@ const Validate = (fields) => {
         }
 
         if (fields[i] === "email") {
-            const email = document.querySelector("[name='" + fields[i] + "']").value;
+
+            email = document.querySelector("[name='" + fields[i] + "']").value;
+            email = email.toLowerCase();
             var atpos = email.indexOf("@");
             var dotpos = email.lastIndexOf(".");
             if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= email.length) {
@@ -72,6 +70,20 @@ const Validate = (fields) => {
                     .querySelector("[name='" + fields[i] + "']")
                     .classList.add("error");
             } //end if
+
+        }
+
+
+
+
+
+        if (blkList.indexOf(email) !== -1) {
+            console.log("email: " + email + " blkList.indexOf(email): " + blkList.indexOf(email));
+            document.querySelector("#portfolioContact button[type='submit']").innerHTML = email + ". Stop emailing me."
+            globalAlert("alert-warning", email + ". I got your email and responded already.");
+            return false;
+        } else {
+            console.log(email + " passes list.");
         }
 
         if (fields[i] === "phone") {
