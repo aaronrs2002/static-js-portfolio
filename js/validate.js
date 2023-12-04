@@ -73,17 +73,9 @@ const Validate = (fields) => {
 
         }
 
-
-
-
-
         if (blkList.indexOf(email) !== -1) {
-            console.log("email: " + email + " blkList.indexOf(email): " + blkList.indexOf(email));
-            document.querySelector("#portfolioContact button[type='submit']").innerHTML = email + ". Stop emailing me."
-            globalAlert("alert-warning", email + ". I got your email and responded already.");
+            globalAlert("alert-warning", email + ". Please, stop emailing me.");
             return false;
-        } else {
-            console.log(email + " passes list.");
         }
 
         if (fields[i] === "phone") {
@@ -106,22 +98,32 @@ const Validate = (fields) => {
             document.querySelector(
                 "#portfolioContact button[type='submit']"
             ).disabled = true;
-
             document.querySelector("#portfolioContact").setAttribute("action", "");
+            return false;
         } else {
             document.querySelector(
                 "#portfolioContact button[type='submit']"
             ).disabled = false;
+
             document
                 .querySelector("#portfolioContact")
                 .setAttribute(
                     "action",
                     "https://mechanized-aesthetics.net/php-relays/EmailRelay.php"
                 );
-
         }
     }
 };
+
+
+function runningProcess() {
+    if (document.querySelector(".error")) {
+        globalAlert("alert-danger", "There is something wrong with your form.");
+        return false;
+    } else {
+        globalAlert("alert-success", "Your form looks good. Let me take a few seconds to send the email.");
+    }
+}
 
 function onHandleChange() {
     Validate(["name", "email", "phone", "message"]);

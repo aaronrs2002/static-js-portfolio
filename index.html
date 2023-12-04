@@ -43,7 +43,9 @@
 </head>
 
 <body data-design="option-2">
+    <div class="hide alert-success fadeInUp animated" role="alert" id="globalAlert">
 
+    </div>
 
 
 
@@ -190,7 +192,7 @@
         <div class="row  animated hide" data-module="contact">
             <div class="col-md-12 animated fadeIn mt-4">
                 <h2>Contact Aaron Smith: Web Developer <br /> Web-Presence LLC </h2>
-                <form method="POST" id="portfolioContact" action="">
+                <form method="POST" id="portfolioContact" action="" onSubmit="javascript:runningProcess()">
                     <div class="form-group block">
                         <ul>
                             <li> <input type="hidden" name="url" />
@@ -240,7 +242,7 @@
         </div>
     </div>
 
-    <div class="hide alert fadeInUp" role="alert" id="globalAlert"></div>
+
     <footer class="footer mt-auto py-3 animated hide">
         <div class="container">
             <div class="row">
@@ -291,13 +293,14 @@
 
 
 </body>
+<script src="js/validate.js"></script>
 <script src="js/navigation.js"></script>
 <script src="js/design.js"></script>
 <script src="js/portfolio.js"></script>
 <script src="js/blog.js"></script>
 <script src="js/resume.js"></script>
 <script src="js/footer.js"></script>
-<script src="js/validate.js"></script>
+
 
 
 </html>
