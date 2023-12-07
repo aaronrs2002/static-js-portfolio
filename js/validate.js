@@ -18,10 +18,8 @@ function globalAlert(alertLevel, message) {
 }
 
 const Validate = (fields) => {
-    const letterOnly = /^[a-zA-Z\s-.]*$/;
-    const numOnly = /^[0-9-().+]+$/;
-
-
+    /*const letterOnly = /^[a-zA-Z\s-.]*$/;
+    const numOnly = /^[0-9-().+]+$/;*/
     if (document.querySelector("input[name='legit']").value) {
         document.querySelector("input[name='legit']").classList.add("error");
     } else {
@@ -41,17 +39,12 @@ const Validate = (fields) => {
                 .querySelector("[name='" + fields[i] + "']")
                 .classList.add("error");
         }
-
-
-
         const maxCharNum = document
             .querySelector("[name='" + fields[i] + "']")
             .getAttribute("maxLength");
         if (value.length <= Number(maxCharNum) && value.length > 0) {
             if (document.querySelector(".error[name='" + fields[i] + "']")) {
-                document
-                    .querySelector("[name='" + fields[i] + "']")
-                    .classList.remove("error");
+                document.querySelector("[name='" + fields[i] + "']").classList.remove("error");
             }
         } else {
             document
@@ -60,7 +53,6 @@ const Validate = (fields) => {
         }
 
         if (fields[i] === "email") {
-
             email = document.querySelector("[name='" + fields[i] + "']").value;
             email = email.toLowerCase();
             var atpos = email.indexOf("@");
@@ -70,7 +62,6 @@ const Validate = (fields) => {
                     .querySelector("[name='" + fields[i] + "']")
                     .classList.add("error");
             } //end if
-
         }
 
         if (blkList.indexOf(email) !== -1) {
@@ -79,16 +70,27 @@ const Validate = (fields) => {
         }
 
         if (fields[i] === "phone") {
-            const phone = document.querySelector("[name='" + fields[i] + "']").value;
-
-            if (
-                phone.match(numOnly) == null ||
-                phone.length > 20 ||
-                phone.length < 10
-            ) {
-                document
-                    .querySelector("[name='" + fields[i] + "']")
-                    .classList.add("error");
+            let phone = 0;
+            let tempPhone = "";
+            try {
+                if (document.querySelector("[name='" + fields[i] + "']").value) {
+                    phone = document.querySelector("[name='" + fields[i] + "']").value;
+                }
+            } catch (error) {
+                console.log("Phone field is empty.")
+            }
+            for (let i = 0; i < phone.length; i++) {
+                phone[i] = Number(phone[i]);
+                if (!isNaN(Number(phone[i]))) {
+                    tempPhone = tempPhone + phone[i];
+                }
+                tempPhone = tempPhone.trim();
+            }
+            if (typeof Number(phone[i]) == "number") {
+                phone = tempPhone;
+            }
+            if (phone.length > 20 || phone.length < 10) {
+                document.querySelector("[name='" + fields[i] + "']").classList.add("error");
             }
         }
     }
