@@ -85,10 +85,12 @@ const Validate = (fields) => {
                     tempPhone = tempPhone + phone[i];
                 }
                 tempPhone = tempPhone.trim();
+                document.querySelector("[name='phone']").value = tempPhone;
             }
             if (typeof Number(phone[i]) == "number") {
                 phone = tempPhone;
             }
+
             if (phone.length > 20 || phone.length < 10) {
                 document.querySelector("[name='" + fields[i] + "']").classList.add("error");
             }
