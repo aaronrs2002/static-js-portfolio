@@ -1,5 +1,12 @@
 const blogData = [
+
     {
+        "title": "Nearby Locations - JavaScript, React.js and Google Maps",
+        "link": "https:\/\/web-presence-news.blogspot.com\/2023\/12\/nearby-locations-javascript-reactjs-and.html",
+        "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/VRtSu5-nXB8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>I have found a project where I use the longitude and latitude of a location to find and mark other parks and cities nearby.</p></div></div>",
+        "pubDate": "Wed, 13 Dec 2023 17:29:00",
+        "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-9153597842566411758"
+    }, {
         "title": "Coding projects using open source city datasets",
         "link": "https:\/\/web-presence-news.blogspot.com\/2023\/11\/coding-projects-using-open-source-city.html",
         "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/3QN8n5TkfgM' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>Take advantage of your cities free public data. Here are some examples of how to utilize the open source data your town offers. From Bus stops, parks and libraries to police, fire and permit submissions. All the data is available for you.</p><p>Special Thanks to:</p><ul><li><a href='https://www.phoenixopendata.com/dataset' target='_blank'>City of Phoenix, AZ - Public Datasets</a></li><li><a href='https://data-cos-gis.hub.arcgis.com/explore' target='_blank'>City of Scottsdale, AZ - Public Datasets</a></li><li><a href='https://www.valleymetro.org/' target='_blank'>Valley Metro</a></li><li><a href='https://developers.google.com/maps' target='_blank'>Google Developer - Maps</a></li><li><a href='https://github.com/googlemaps/' target='_blank'>Google Maps GitHub</a></li></ul></div></div>",
