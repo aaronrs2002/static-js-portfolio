@@ -1,6 +1,12 @@
 const blogData = [
 
     {
+        "title": "How to utilize Government Open API endpoints for your web application",
+        "link": "https:\/\/web-presence-news.blogspot.com\/2024\/01\/how-to-utilize-government-open-api.html",
+        "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/-IRTFlgggMw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>How to run a web application using open/public API endpoints instead of your own database.</p><ul><li>Run multiple API calls using a for loop</li><li>Understand what determines an open API</li><li>How to filter out duplicate information</li><li>Filter by location</li><li>Utilizing React.js with axios</li></ul></div></div>",
+        "pubDate": "Tue, 02 Jan 2024 15:32:00",
+        "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-6386902818769320878"
+    }, {
         "title": "Using React.js and axios to build a nutrition API with Edamam",
         "link": "https:\/\/web-presence-news.blogspot.com\/2023\/12\/using-reactjs-and-axios-to-build.html",
         "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/P0n72be3HLA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>In this video I use axios to set up an API for food nutrition from <a href='https://developer.edamam.com/' target='_blank'>https://developer.edamam.com</a></p><ul><li>00:42 - edamam.com developer documentation</li><li>02:16 - Save user info & build out data path to each value</li><li>05:06 - JavaScript parseFloat()</li><li>05:53 - Update missing input field</li><li>07:09 - Verify API status & update MySQL database</li></ul><p>Edamam public path to nutrition data:</p><p>https://api.edamam.com/api/nutrition-data?app_id=' + app_id + '&app_key=' + app_key + '&nutrition-type=logging&ingr=' + foodName + '&'</p></div></div>",
