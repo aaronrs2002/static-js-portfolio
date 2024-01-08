@@ -1,6 +1,11 @@
 const blogData = [
-
     {
+        "title": "Use ChatGPT to upgrade your SEO (Search Engine Optimization)",
+        "link": "https:\/\/web-presence-news.blogspot.com\/2024\/01\/use-chatgpt-to-upgrade-your-seo-search.html",
+        "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/00rpDyul9tU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>Generate more traffic by asking ChatGPT what are the most effective search keywords and phrases for your online products.</p><ul><li>00:26 - Google Analytics Report shows low traffic currently</li><li>01:49 - Log into ChatGPT and describe your web content in great detail</li><li>02:51 - Update meta data and HTML attributes</li><li>04:42 - Log into GitHub add poker keywords</li><li>05:16 - Log into YouTube add your search tags</li><li>06:03 - Upgraded SEO on Black Jack</li><li>06:46 - Upgraded SEO on Trivia Game</li><li>07:00 - Upgraded SEO on BINGO</li><li>07:15 - Upgraded SEO on 5 card draw</li></ul></div></div>",
+        "pubDate": "Mon, 08 Jan 2024 15:12:00",
+        "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-8289366217657033200"
+    }, {
         "title": "How to utilize Government Open API endpoints for your web application",
         "link": "https:\/\/web-presence-news.blogspot.com\/2024\/01\/how-to-utilize-government-open-api.html",
         "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/-IRTFlgggMw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>How to run a web application using open/public API endpoints instead of your own database.</p><ul><li>Run multiple API calls using a for loop</li><li>Understand what determines an open API</li><li>How to filter out duplicate information</li><li>Filter by location</li><li>Utilizing React.js with axios</li></ul></div></div>",
