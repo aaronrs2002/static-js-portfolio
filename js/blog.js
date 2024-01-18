@@ -1,5 +1,11 @@
 const blogData = [
     {
+        "title": "Client side \"Theme Swapping\" using JavaScript",
+        "link": "https:\/\/web-presence-news.blogspot.com\/2024\/01\/client-side-theme-swapping-using.html",
+        "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/uj-vh6Q2d0o' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>Give your client options without burning time guessing what they want their site to look like. Utilize the 'Bootswatch Themes' to your advantage by presenting the list they offer and updating your site immediately from a selection menu.</p><p>Special thanks to: <a href='https://bootswatch.com/' target='_blank'>Bootswatch</a></p></div></div>",
+        "pubDate": "Thu, 18 Jan 2024 22:50:00",
+        "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-7221955236935106475"
+    }, {
         "title": "Use ChatGPT to upgrade your SEO (Search Engine Optimization)",
         "link": "https:\/\/web-presence-news.blogspot.com\/2024\/01\/use-chatgpt-to-upgrade-your-seo-search.html",
         "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/00rpDyul9tU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>Generate more traffic by asking ChatGPT what are the most effective search keywords and phrases for your online products.</p><ul><li>00:26 - Google Analytics Report shows low traffic currently</li><li>01:49 - Log into ChatGPT and describe your web content in great detail</li><li>02:51 - Update meta data and HTML attributes</li><li>04:42 - Log into GitHub add poker keywords</li><li>05:16 - Log into YouTube add your search tags</li><li>06:03 - Upgraded SEO on Black Jack</li><li>06:46 - Upgraded SEO on Trivia Game</li><li>07:00 - Upgraded SEO on BINGO</li><li>07:15 - Upgraded SEO on 5 card draw</li></ul></div></div>",
