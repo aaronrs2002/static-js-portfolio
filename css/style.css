@@ -2378,32 +2378,42 @@ body[data-design="option-4"] {
 }
 
 
-/*max-width 768*/
+
+body.entered[data-design="option-1"]::before,
+body.entered[data-design="option-2"]::before,
+body.entered[data-design="option-3"]::before,
+body.entered[data-design="option-4"]::before {
+    content: "";
+
+    position: fixed;
+    top: 50px;
+    left: -50px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/MA_Logo.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: left;
+    filter: grayscale(100%);
+    opacity: .2;
+
+}
+
+
+
+
 @media (max-width: 768px) {
 
     body.entered[data-design="option-1"]::before,
     body.entered[data-design="option-2"]::before,
     body.entered[data-design="option-3"]::before,
     body.entered[data-design="option-4"]::before {
-        content: "";
+        top: 0px;
+        left: -150px;
+        background-position-x: center;
 
-        position: fixed;
-        top: 10px;
-        left: -200px;
-        width: 100%;
-        height: 100%;
-        background-image: url("../img/MA_Logo.png");
-        background-repeat: no-repeat;
-        background-position: top;
-        filter: grayscale(100%);
-        opacity: .2;
 
     }
-
-
-}
-
-@media (max-width: 768px) {
 
 
 
