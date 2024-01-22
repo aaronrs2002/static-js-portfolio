@@ -194,7 +194,8 @@ body[data-design="option-3"] nav a[data-portfolio] {
 }
 
 body[data-design="option-3"] .card-body,
-body[data-design="option-3"] .card-header {
+body[data-design="option-3"] .card-header,
+body[data-design="option-3"] .card[data-info="career"] {
     color: #e6e6e6;
 }
 
@@ -1331,7 +1332,8 @@ body[data-design="option-2"] {
     color: #fff !important;
 }
 
-[data-design="option-2"] .modal-content {
+[data-design="option-2"] .modal-content,
+[data-design="option-2"] .card[data-info="career"] {
     background-color: #333;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -1904,10 +1906,18 @@ body[data-design="option-4"] {
 
 /* OPTION-4 END  */
 
+
+.card[data-info="career"] {
+    min-height: auto !important;
+    cursor: auto;
+    margin-bottom: 1rem;
+}
+
 /*//////////////////////////////END DESING OPTIONS*/
 
 .displayMobile {
     display: none;
+
 }
 
 /*START RESPONSIVE CSS*/
