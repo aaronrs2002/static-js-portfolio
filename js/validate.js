@@ -1,5 +1,5 @@
 
-const blkList = ["harshitb2712@gmail.com", "donfrenette@yahoo.com"];//email address that are blocked
+const blkList = localVars[0].blocked;//email address that are blocked
 let email = "";
 
 //START GLOBAL ALERT

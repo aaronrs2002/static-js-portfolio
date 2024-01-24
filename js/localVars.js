@@ -467,5 +467,6 @@ const localVars = [
                 "gitHub": "https://github.com/aaronrs2002/",
                 "created": "2020"
             }
-        ]
+        ],
+        blocked: ["harshitb2712@gmail.com", "donfrenette@yahoo.com"],
     }]; 
