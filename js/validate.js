@@ -1,9 +1,9 @@
 
-const blkList = ["harshitb2712@gmail.com", "donfrenette@yahoo.com"];
+const blkList = ["harshitb2712@gmail.com", "donfrenette@yahoo.com"];//email address that are blocked
 let email = "";
 
 //START GLOBAL ALERT
-function globalAlert(alertLevel, message) {
+function globalAlert(alertLevel, message) {//can be used throughout the entire site.
 
     document.getElementById("globalAlert").classList.remove("hide");
     document.getElementById("globalAlert").classList.add(alertLevel);
@@ -20,13 +20,13 @@ function globalAlert(alertLevel, message) {
 const Validate = (fields) => {
     /*const letterOnly = /^[a-zA-Z\s-.]*$/;
     const numOnly = /^[0-9-().+]+$/;*/
-    if (document.querySelector("input[name='legit']").value) {
+    if (document.querySelector("input[name='legit']").value) {//check if user is human
         document.querySelector("input[name='legit']").classList.add("error");
     } else {
         document.querySelector("input[name='legit']").classList.remove("error");
     }
 
-    for (let i = 0; i < fields.length; i++) {
+    for (let i = 0; i < fields.length; i++) {//validate each field in array with a loop
         let value = "";
 
         try {
@@ -39,9 +39,9 @@ const Validate = (fields) => {
                 .querySelector("[name='" + fields[i] + "']")
                 .classList.add("error");
         }
-        const maxCharNum = document
-            .querySelector("[name='" + fields[i] + "']")
-            .getAttribute("maxLength");
+
+        const maxCharNum = document.querySelector("[name='" + fields[i] + "']").getAttribute("maxLength");
+
         if (value.length <= Number(maxCharNum) && value.length > 0) {
             if (document.querySelector(".error[name='" + fields[i] + "']")) {
                 document.querySelector("[name='" + fields[i] + "']").classList.remove("error");
@@ -52,7 +52,7 @@ const Validate = (fields) => {
                 .classList.add("error");
         }
 
-        if (fields[i] === "email") {
+        if (fields[i] === "email") {//XX@XX.XX format required
             email = document.querySelector("[name='" + fields[i] + "']").value;
             email = email.toLowerCase();
             var atpos = email.indexOf("@");
@@ -64,12 +64,12 @@ const Validate = (fields) => {
             } //end if
         }
 
-        if (blkList.indexOf(email) !== -1) {
+        if (blkList.indexOf(email) !== -1) {//do not allow these emails to post
             globalAlert("alert-warning", email + ". Please, stop emailing me.");
             return false;
         }
 
-        if (fields[i] === "phone") {
+        if (fields[i] === "phone") {//clear everythikng except numbers
             let phone = 0;
             let tempPhone = "";
             try {
@@ -99,9 +99,7 @@ const Validate = (fields) => {
 
     if (document.querySelector("#portfolioContact button[type='submit']")) {
         if (document.querySelector(".error")) {
-            document.querySelector(
-                "#portfolioContact button[type='submit']"
-            ).disabled = true;
+            document.querySelector("#portfolioContact button[type='submit']").disabled = true;
             document.querySelector("#portfolioContact").setAttribute("action", "");
             return false;
         } else {
@@ -113,7 +111,7 @@ const Validate = (fields) => {
                 .querySelector("#portfolioContact")
                 .setAttribute(
                     "action",
-                    "https://mechanized-aesthetics.net/php-relays/EmailRelay.php"
+                    localVars[0].relay
                 );
         }
     }
@@ -126,6 +124,7 @@ function runningProcess() {
         return false;
     } else {
         globalAlert("alert-success", "Your form looks good. Let me take a few seconds to send the email.");
+        document.querySelector("#portfolioContact button[type='submit']").disabled = true;
     }
 }
 
