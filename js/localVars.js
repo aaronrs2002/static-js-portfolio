@@ -2,6 +2,13 @@ const localVars = [
     {
         blog: [
             {
+                "title": "JavaScript form validation, save your company from disaster",
+                "link": "https:\/\/web-presence-news.blogspot.com\/2024\/01\/javascript-form-validation-save-your.html",
+                "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/WOGslQPJq6k' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>In this video we walk through a basic form validation process. Each input field has different requirements. Some simply need one character, others require numbers only and there are some which need specific character patterns. We will also talk about how to avoid hackers from by passing your form and we will discuss a simple way to detect if your user is human.</p><p><a href='https://github.com/aaronrs2002/static-js-portfolio/blob/main/js/validate.js' target='_blank'>Github link for validation code</a></p></div></div>",
+                "pubDate": "Wed, 24 Jan 2024 16:30:21",
+                "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-226619784710824151"
+            },
+            {
                 "title": "Client side \"Theme Swapping\" using JavaScript",
                 "link": "https:\/\/web-presence-news.blogspot.com\/2024\/01\/client-side-theme-swapping-using.html",
                 "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/uj-vh6Q2d0o' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>Give your client options without burning time guessing what they want their site to look like. Utilize the 'Bootswatch Themes' to your advantage by presenting the list they offer and updating your site immediately from a selection menu.</p><p>Special thanks to: <a href='https://bootswatch.com/' target='_blank'>Bootswatch</a></p></div></div>",
