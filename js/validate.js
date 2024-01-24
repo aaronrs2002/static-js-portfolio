@@ -101,18 +101,12 @@ const Validate = (fields) => {
         if (document.querySelector(".error")) {
             document.querySelector("#portfolioContact button[type='submit']").disabled = true;
             document.querySelector("#portfolioContact").setAttribute("action", "");
+
             return false;
         } else {
-            document.querySelector(
-                "#portfolioContact button[type='submit']"
-            ).disabled = false;
+            document.querySelector("#portfolioContact button[type='submit']").disabled = false;
 
-            document
-                .querySelector("#portfolioContact")
-                .setAttribute(
-                    "action",
-                    localVars[0].relay
-                );
+            document.querySelector("#portfolioContact").setAttribute("action", localVars[0].relay);
         }
     }
 };
