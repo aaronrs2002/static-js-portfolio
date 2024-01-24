@@ -1,6 +1,5 @@
 const localVars = [
     {
-        relay: "https://mechanized-aesthetics.net/php-relays/EmailRelay.php",
         blog: [
             {
                 "title": "Client side \"Theme Swapping\" using JavaScript",
@@ -347,6 +346,7 @@ const localVars = [
                 "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-627902410394140441"
             }
         ],
+        relay: "https://mechanized-aesthetics.net/php-relays/EmailRelay.php",
         examples: [
 
             {
