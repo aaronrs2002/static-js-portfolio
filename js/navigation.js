@@ -17,13 +17,12 @@ document.getElementById("landingPgLinksTarget").innerHTML = navHTML;
 
 
 function showModule(module) {
-
     if (document.querySelector("body.entered") === null) {
         console.log("show module fired")
         document.querySelector("body").classList.add("entered");
     }
-
     if (module === "landingPg") {
+        document.querySelector(".entered[data-design]").classList.remove("entered");
         document.querySelector("#navWrap").classList.add("hide");
         document.querySelector("footer").classList.add("hide");
     } else {
