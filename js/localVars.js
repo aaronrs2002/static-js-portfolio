@@ -1,7 +1,20 @@
 const localVars = [
     {
         blog: [
+
             {
+                "title": "Hosting a Node.js app or service (CORS)",
+                "link": "https:\/\/web-presence-news.blogspot.com\/2024\/03\/hosting-nodejs-app-or-service-cors.html",
+                "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/VigxbuZafOk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>In this video we utilize a gitHub repository and connect it to a free account at render.com where the node.js service/package is deployed. This video takes a dive into how to communicate with that service by specifying the 'Access-Control-Allow-Origin'.  In the end we show an HTML file residing in an environment that does not even have node installed, yet it still operates with our node.js service.</p><p>View code here: <a href='https://github.com/aaronrs2002/node-change-maker/' target='_blank'>https://github.com/aaronrs2002/node-change-maker/</a></p></div></div>",
+                "pubDate": "Wed, 13 Mar 2024 16:52:11",
+                "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-2533931096545469307"
+            }, {
+                "title": "Replace React. Run a Node.js app with Vanilla JavaScript, HTML and CORS",
+                "link": "https:\/\/web-presence-news.blogspot.com\/2024\/03\/replace-react-run-nodejs-app-with.html",
+                "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/Jc8dQVpwTkg' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>CORS, or Cross-Origin Resource Sharing: In this video I dismantle a React.js project and replace it with an HTML file that contains a basic POST method. On the server side, the node.js function breaks down the value sent over and returns the 'break down result'. This video shows that Node.js does not care what the client side is built with. As long as the proper protocols are met along with Cross Origin Requirements.</p><p>View code here:<a href='https://github.com/aaronrs2002/node-change-maker/' target='_blank'>https://github.com/aaronrs2002/node-change-maker/</a></p></div></div>",
+                "pubDate": "Wed, 13 Mar 2024 16:36:00",
+                "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-3718873979524363348"
+            }, {
                 "title": "Apex Line Chart Tutorial using React.js",
                 "link": "https:\/\/web-presence-news.blogspot.com\/2024\/03\/apex-line-chart-tutorial-using-reactjs.html",
                 "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/lypDRQvwMrw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>'ApexCharts, a versatile open-source JavaScript library. Follow along as we create a real-life example showcasing power usage and cost data, providing valuable insights through monthly cost analysis. Dive into the world of interactive graphs and enhance your web applications with stunning visual representations. Elevate your coding skills and empower your projects with ApexCharts today!' - ChatGPT</p><p><a href='https://apexcharts.com/react-chart-demos/line-charts/basic/' target='_blank'>apexcharts.com</a></p></div></div>",
