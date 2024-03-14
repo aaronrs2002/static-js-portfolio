@@ -1,7 +1,13 @@
 const localVars = [
     {
         blog: [
-
+            {
+                "title": "Hosting a Node.js web app on GitHub",
+                "link": "https:\/\/web-presence-news.blogspot.com\/2024\/03\/hosting-nodejs-web-app-on-github.html",
+                "description": "<div class='row'><div class='col-md-6'><iframe style='width: 100%; height: auto; min-height: 270px;' src='https://www.youtube.com/embed/sNO26CToYHw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='col-md-6'><p>Thanks to github.com we can host our static webpages. Thanks to render.com we can monitor and deploy our server side software from our github account. With render.com hosting our web services and github handling our client side code, we are hosting full web applications.</p><p>View code here: <a href='https://github.com/aaronrs2002/node-change-maker/' target='_blank'>https://github.com/aaronrs2002/node-change-maker/</a></p></div></div>",
+                "pubDate": "Thu, 14 Mar 2024 14:57:00",
+                "guid": "tag:blogger.com,1999:blog-8505796167510599349.post-8605260896509215157"
+            },
             {
                 "title": "Hosting a Node.js app or service (CORS)",
                 "link": "https:\/\/web-presence-news.blogspot.com\/2024\/03\/hosting-nodejs-app-or-service-cors.html",
