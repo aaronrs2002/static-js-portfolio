@@ -63,3 +63,21 @@ async function getData() {
     }
 }
 getData();
+
+
+//*START  BLOGGER API*/
+
+//https://www.googleapis.com/blogger/v3/blogs/2399953/posts?key=YOUR-API-KEY
+let bloggerData = [];
+async function getPostList() {
+    try {
+        const response = await fetch("https://www.googleapis.com/blogger/v3/blogs/8505796167510599349/posts?key=AIzaSyC88LHPtxkMn7kEfo1XntANrqxOWjwpenM");
+        bloggerData = await response.json();
+
+        localStorage.setItem("web-presence-news", bloggerData)
+    } catch (error) {
+        console.error("Error:", error);
+
+    }
+}
+getPostList();
