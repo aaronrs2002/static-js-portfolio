@@ -58,7 +58,7 @@ async function getData() {
 
     } catch (error) {
         console.error("Error:", error);
-        blogData = localVars[0].blog;//DEFAULT DATA IN CASE OF GODADDY PHP ERROR
+        blogData = localVars[0].blog;//DEFAULT DATA IN CASE OF GODADDY PHP ERROR*/
         buildPost(blogData);
     }
 }
