@@ -71,10 +71,10 @@ getData();
 let bloggerData = [];
 async function getPostList() {
     try {
-        const response = await fetch("https://www.googleapis.com/blogger/v3/blogs/8505796167510599349/posts?key=AIzaSyC88LHPtxkMn7kEfo1XntANrqxOWjwpenM");
+        const response = await fetch("https://www.googleapis.com/blogger/v3/blogs/8505796167510599349/posts?key=AIzaSyC88LHPtxkMn7kEfo1XntANrqxOWjwpenM&maxResults=100&");
         bloggerData = await response.json();
 
-        localStorage.setItem("web-presence-news", bloggerData)
+        localStorage.setItem("web-presence-news", JSON.stringify(bloggerData))
     } catch (error) {
         console.error("Error:", error);
 
