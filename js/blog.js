@@ -52,7 +52,7 @@ function buildPost(blogData) {
 
 async function getData() {
     try {
-        const response = await fetch("https://mechanized-aesthetics.net/php-relays/social-app-rss.php?q=https://web-presence-news.blogspot.com/feeds/posts/default?alt=rss");
+        const response = await fetch("https://mechanized-aesthetics.net/php-relays/web-presence-news.php");
         blogData = await response.json();
         buildPost(blogData);
 
