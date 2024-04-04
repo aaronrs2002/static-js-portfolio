@@ -4,7 +4,7 @@ let tempBlogHTML = "";
 const blogId = "8505796167510599349";
 let blogScroll = 0;
 function writePost(data) {
-    document.getElementById("blogNumbers").innerHTML = + blogScroll + 1 + "/" + blogUrls.length;
+    document.getElementById("blogNumbers").innerHTML = + blogScroll + 1 + "/" + localVars[0].blogUrls.length;
     document.querySelector("[data-module='blog']").innerHTML = "<article id='postNum-" + data.id
         + "'><div class='container'><div class='row'><div class='col-md-12'><h2>" + data.title
         + "</h2><hr><div>" + data.content
