@@ -410,6 +410,7 @@ const localVars = [
             }
         ],
         relay: "https://mechanized-aesthetics.net/php-relays/EmailRelay.php",
+        blogIdentifier: "AIzaSyC88LHPtxkMn7kEfo1XntANrqxOWjwpenM",
         examples: [
 
             {

@@ -67,11 +67,11 @@ getData();
 
 //*START  BLOGGER API*/
 
-//https://www.googleapis.com/blogger/v3/blogs/2399953/posts?key=YOUR-API-KEY
+//https://www.googleapis.com/blogger/v3/blogs/8505796167510599349/posts?key=YOUR-API-KEY
 let bloggerData = [];
 async function getPostList() {
     try {
-        const response = await fetch("https://www.googleapis.com/blogger/v3/blogs/8505796167510599349/posts?key=AIzaSyC88LHPtxkMn7kEfo1XntANrqxOWjwpenM&maxResults=100&");
+        const response = await fetch("https://www.googleapis.com/blogger/v3/blogs/8505796167510599349/posts/bypath?path=/2015/08/google-is-taking-big-step-to-kill-off.html&key=" + localVars[0].blogIdentifier + "&");
         bloggerData = await response.json();
 
         localStorage.setItem("web-presence-news", JSON.stringify(bloggerData))
