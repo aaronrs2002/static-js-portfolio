@@ -4,7 +4,7 @@ let tempBlogHTML = "";
 const blogId = "8505796167510599349";
 let blogScroll = 0;
 function writePost(data) {
-    document.getElementById("blogNumbers").innerHTML = + blogScroll + 1 + "/" + blogData.length;
+    document.getElementById("blogNumbers").innerHTML = + blogScroll + 1 + "/" + blogUrls.length;
     document.querySelector("[data-module='blog']").innerHTML = "<article id='postNum-" + data.id
         + "'><div class='container'><div class='row'><div class='col-md-12'><h2>" + data.title
         + "</h2><hr><div>" + data.content
@@ -54,7 +54,7 @@ getData();*/
 
 //https://www.googleapis.com/blogger/v3/blogs/8505796167510599349/posts?key=YOUR-API-KEY
 let bloggerData = [];
-async function getPostList(url) {
+async function getPostByUrl(url) {
     try {
         const response = await fetch("https://www.googleapis.com/blogger/v3/blogs/8505796167510599349/posts/bypath?path=" + url + "&key=" + localVars[0].blogIdentifier + "&");
         bloggerData = await response.json();
@@ -75,7 +75,7 @@ function updateBlog() {
     if (whichPost === "default") {
         return false;
     } else {
-        getPostList(whichPost);
+        getPostByUrl(whichPost);
         blogScroll = localVars[0].blogUrls.indexOf(whichPost);
     }
 }
@@ -88,7 +88,7 @@ for (let i = 0; i < localVars[0].blogUrls.length; i++) {
     bloglistStr = bloglistStr + "<option value='" + localVars[0].blogUrls[i] + "'>" + (i + 1) + ". " + localVars[0].blogUrls[i] + "</option>";
 }
 document.getElementById("blogList").innerHTML = bloglistStr;
-writePost(localVars[0].blogUrls[0]);
+getPostByUrl(localVars[0].blogUrls[0]);
 
 function viewPosts(direction) {
     if (direction === "next") {
@@ -103,7 +103,7 @@ function viewPosts(direction) {
         }
     }
     console.log("blogScroll: " + blogScroll)
-    getPostList(localVars[0].blogUrls[blogScroll])
+    getPostByUrl(localVars[0].blogUrls[blogScroll])
     document.getElementById("blogList").selectedIndex = 0;
 }
 /*
