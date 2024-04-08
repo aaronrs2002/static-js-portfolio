@@ -1,6 +1,5 @@
 let blogDataLength = 0;
 let tempBlogHTML = "";
-const blogId = "8505796167510599349";
 let blogScroll = 0;
 function writePost(data) {
     document.getElementById("blogNumbers").innerHTML = + blogScroll + 1 + "/" + localVars[0].blogUrls.length;
@@ -8,14 +7,14 @@ function writePost(data) {
         + "'><div class='container'><div class='row'><div class='col-md-12'><h2>" + data.title
         + "</h2><hr><div>" + data.content
         + "</div><ul class='list-unstyled'><li><i>Published: " + data.published
-        + "</i></li><li><a target='_blank' href='https://www.blogger.com/comment.g?blogID=8505796167510599349&amp;postID=" + data.id
+        + "</i></li><li><a target='_blank' href='https://www.blogger.com/comment.g?blogID=" + localVars[0].blogId + "&amp;postID=" + data.id
         + "'> Post comment: <i class='fas fa-bullhorn'></i></a></li></ul></div></div></div> </div></article>";
 }
 
 let bloggerData = [];
 async function getPostByUrl(url) {
     try {
-        const response = await fetch("https://www.googleapis.com/blogger/v3/blogs/8505796167510599349/posts/bypath?path=" + url + "&key=" + localVars[0].blogIdentifier + "&");
+        const response = await fetch("https://www.googleapis.com/blogger/v3/blogs/" + localVars[0].blogId + "/posts/bypath?path=" + url + "&key=" + localVars[0].blogIdentifier + "&");
         bloggerData = await response.json();
         writePost(bloggerData)
     } catch (error) {
