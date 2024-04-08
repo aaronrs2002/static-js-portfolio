@@ -67,6 +67,7 @@ const localVars = [
             "/2015/04/experimental-css-shaders-bring.html"],
         relay: "https://mechanized-aesthetics.net/php-relays/EmailRelay.php",
         blogIdentifier: "AIzaSyC88LHPtxkMn7kEfo1XntANrqxOWjwpenM",
+        blogId: "8505796167510599349",
         examples: [
 
             {
