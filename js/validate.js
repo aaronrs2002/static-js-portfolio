@@ -105,6 +105,7 @@ const Validate = (fields) => {
             return false;
         } else {
             document.querySelector("#portfolioContact button[type='submit']").disabled = false;
+            document.querySelector("#portfolioContact button[type='submit']").innerHTML = "Submit";
 
             document.querySelector("#portfolioContact").setAttribute("action", localVars[0].relay);
         }
@@ -118,6 +119,7 @@ function runningProcess() {
         return false;
     } else {
         globalAlert("alert-success", "Your form looks good. Let me take a few seconds to send the email.");
+        document.querySelector("#portfolioContact button[type='submit']").innerHTML = "Processing...";
         document.querySelector("#portfolioContact button[type='submit']").disabled = true;
     }
 }
