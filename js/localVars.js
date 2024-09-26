@@ -75,12 +75,12 @@ const localVars = [
         examples: [
             {
                 "name": "RV Park Administrator",
-                "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
+                "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, Vanilla JavaScript",
                 "thumb": "img/rvParkThumSm.jpg",
                 "youTube": "atxJpkM-A-Q",
                 "details": "RV Park Administrator is a web app that works on any device.  Save, email, print & evaluate transaction records - Guest timelines - Current, past and waiting guest details - Legal Contracts - Electricity monitoring for each unit - Post any message to your public website",
                 "gitHub": "https://github.com/aaronrs2002",
-                "created": "2021"
+                "created": "2024"
             },
 
             {
