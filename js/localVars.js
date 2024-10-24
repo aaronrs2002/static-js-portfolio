@@ -77,7 +77,7 @@ const localVars = [
             {
                 "name": "Open source games",
                 "software": "Vanilla JavaScript, Bootstrap/CSS",
-                "thumb": "img/freeGamesThumb",
+                "thumb": "img/freeGamesThumb.jpg",
                 "youTube": "MrsOwvHgW48",
                 "details": "Discover a collection of free-to-play JavaScript games that require no installation or login! Play classics like Blackjack/21, Five-Card Draw Poker, Texas Hold'em Poker, Word Trivia, Bingo, and a Slot Machine. Accessible from any device. <a href='https://aaronrs2002.github.io/black-jack/' target='_blank' >Play free on gitHub.</a>",
                 "gitHub": "https://github.com/aaronrs2002/black-jack",
