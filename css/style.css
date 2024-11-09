@@ -574,7 +574,7 @@ iframe.modalMedia {
 
 .mediaFrame {
     width: 99%;
-    min-height: 350px;
+    min-height: 400px;
     z-index: 1031;
 }
 
@@ -1978,7 +1978,7 @@ body[data-design="option-4"] {
 
 @media (max-width: 767px) {
     .mediaFrame {
-        min-height: 300px;
+        min-height: 250px;
     }
 
     .videoListMobileTitle {
