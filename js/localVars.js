@@ -74,15 +74,7 @@ const localVars = [
         blogIdentifier: "AIzaSyC88LHPtxkMn7kEfo1XntANrqxOWjwpenM",
         blogId: "8505796167510599349",
         examples: [
-            {
-                "name": "Open source games",
-                "software": "Vanilla JavaScript, Bootstrap/CSS",
-                "thumb": "img/freeGamesThumb.jpg",
-                "youTube": "MrsOwvHgW48",
-                "details": "Discover a collection of free-to-play JavaScript games that require no installation or login! Play classics like Blackjack/21, Five-Card Draw Poker, Texas Hold'em Poker, Word Trivia, Bingo, and a Slot Machine. Accessible from any device. <a href='https://aaronrs2002.github.io/black-jack/' target='_blank' >Play free on gitHub.</a>",
-                "gitHub": "https://github.com/aaronrs2002/black-jack",
-                "created": "2023"
-            },
+
             {
                 "name": "RV Park Administrator",
                 "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, Vanilla JavaScript",
@@ -202,6 +194,14 @@ const localVars = [
                 "details": "Organize your special day while providing every detail to your friends and family.",
                 "gitHub": "https://github.com/aaronrs2002/",
                 "created": "2020"
+            }, {
+                "name": "Open source games",
+                "software": "Vanilla JavaScript, Bootstrap/CSS",
+                "thumb": "img/freeGamesThumb.jpg",
+                "youTube": "MrsOwvHgW48",
+                "details": "Discover a collection of free-to-play JavaScript games that require no installation or login! Play classics like Blackjack/21, Five-Card Draw Poker, Texas Hold'em Poker, Word Trivia, Bingo, and a Slot Machine. Accessible from any device. <a href='https://aaronrs2002.github.io/black-jack/' target='_blank' >Play free on gitHub.</a>",
+                "gitHub": "https://github.com/aaronrs2002/black-jack",
+                "created": "2023"
             }
         ],
         blocked: ["harshitb2712@gmail.com", "donfrenette@yahoo.com"],
