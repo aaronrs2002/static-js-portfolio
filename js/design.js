@@ -2,7 +2,7 @@ const designOptions = ["option-1", "option-2", "option-3", "option-4"];
 
 let design = "";
 if (!localStorage.getItem("design")) {
-    design = "option-4";
+    design = "option-2";
 } else {
     design = localStorage.getItem("design");
 }

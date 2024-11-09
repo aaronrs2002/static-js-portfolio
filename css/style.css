@@ -573,9 +573,8 @@ iframe.modalMedia {
 }
 
 .mediaFrame {
-    width: 100%;
-    min-height: 400px;
-
+    width: 99%;
+    min-height: 200px;
     z-index: 1031;
 }
 
@@ -2401,13 +2400,13 @@ body.entered[data-design="option-4"]::before {
 
 
 [data-module] {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 @media (max-width: 768px) {
 
     [data-module] {
-        margin-top: 1rem;
+        margin-top: 0rem;
     }
 
     body.entered[data-design="option-1"]::before,
