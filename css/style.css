@@ -2400,9 +2400,15 @@ body.entered[data-design="option-4"]::before {
 }
 
 
-
+[data-module] {
+    margin-top: 2rem;
+}
 
 @media (max-width: 768px) {
+
+    [data-module] {
+        margin-top: 1rem;
+    }
 
     body.entered[data-design="option-1"]::before,
     body.entered[data-design="option-2"]::before,
