@@ -574,7 +574,7 @@ iframe.modalMedia {
 
 .mediaFrame {
     width: 99%;
-    min-height: 200px;
+    min-height: 350px;
     z-index: 1031;
 }
 
