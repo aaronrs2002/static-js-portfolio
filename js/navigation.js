@@ -9,7 +9,7 @@ for (let i = 0; i < navLinks.length; i++) {
        } else {
            activeLink = "";
        }*/
-    navHTML = navHTML + `<a href='#' class='${activeLink} capitalize' data-portfolio='${navLinks[i]}' onClick='showModule("${navLinks[i]}")'>${navLinks[i][0].toUpperCase() + navLinks[i].slice(1).toLowerCase()}</a>`;
+    navHTML = navHTML + `<a href='#${navLinks[i]}' class='${activeLink} capitalize' data-portfolio='${navLinks[i]}' onClick='showModule("${navLinks[i]}")'>${navLinks[i][0].toUpperCase() + navLinks[i].slice(1).toLowerCase()}</a>`;
 }
 document.getElementById("mainNavLinksTarget").innerHTML = navHTML;
 document.getElementById("landingPgLinksTarget").innerHTML = navHTML;
@@ -51,6 +51,14 @@ function showModule(module) {
         document.getElementById("blogButtons").classList.add("hide");
     }
 }
+
+for (let i = 0; i < navLinks.length; i++) {/*for SEO and web crawlers*/
+    let theURL = window.location.hash.substring(1);
+    if (theURL.indexOf(navLinks[i]) !== -1) {
+        showModule(navLinks[i])
+    }
+}
+
 
 /*if (localStorage.getItem("activeModule")) {//NO MORE PERSISTENCE THERE ARE ONLY A FEW PAGES
     showModule(localStorage.getItem("activeModule"));
