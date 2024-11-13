@@ -53,7 +53,7 @@ function showModule(module) {
 }
 
 for (let i = 0; i < navLinks.length; i++) {/*for SEO and web crawlers*/
-    let theURL = window.location.hash.substring(1);
+    let theURL = window.location.href;
     if (theURL.indexOf(navLinks[i]) !== -1) {
         showModule(navLinks[i])
     }
