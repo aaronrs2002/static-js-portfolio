@@ -6,22 +6,22 @@
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://web-presence.biz/?module=resume&</loc>
+        <loc>https://web-presence.biz/?module=resume</loc>
         <lastmod>2024-11-13</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://web-presence.biz/?module=applications&</loc>
+        <loc>https://web-presence.biz/?module=applications</loc>
         <lastmod>2024-11-13</lastmod>
         <priority>0.80</priority>
     </url>
         <url>
-        <loc>https://web-presence.biz/?module=blog&</loc>
+        <loc>https://web-presence.biz/?module=blog</loc>
         <lastmod>2024-11-13</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://web-presence.biz/?module=contact&</loc>
+        <loc>https://web-presence.biz/?module=contact</loc>
         <lastmod>2024-11-13</lastmod>
         <priority>0.80</priority>
     </url>
