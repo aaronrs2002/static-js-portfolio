@@ -9,7 +9,7 @@ for (let i = 0; i < navLinks.length; i++) {
        } else {
            activeLink = "";
        }*/
-    navHTML = navHTML + `<a href='#${navLinks[i]}' class='${activeLink} capitalize' data-portfolio='${navLinks[i]}' onClick='showModule("${navLinks[i]}")'>${navLinks[i][0].toUpperCase() + navLinks[i].slice(1).toLowerCase()}</a>`;
+    navHTML = navHTML + `<a href='?module=${navLinks[i]}&' class='${activeLink} capitalize' data-portfolio='${navLinks[i]}' onClick='showModule("${navLinks[i]}")'>${navLinks[i][0].toUpperCase() + navLinks[i].slice(1).toLowerCase()}</a>`;
 }
 document.getElementById("mainNavLinksTarget").innerHTML = navHTML;
 document.getElementById("landingPgLinksTarget").innerHTML = navHTML;
