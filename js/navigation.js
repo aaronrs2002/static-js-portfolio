@@ -54,6 +54,9 @@ function showModule(module) {
 
 for (let i = 0; i < navLinks.length; i++) {/*for SEO and web crawlers*/
     let theURL = window.location.href;
+    if (theURL.indexOf("exclude") !== -1) {
+        localStorage.setItem("exclude", "true");
+    }
     if (theURL.indexOf(navLinks[i]) !== -1) {
         showModule(navLinks[i])
     }
