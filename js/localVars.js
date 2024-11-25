@@ -2,6 +2,7 @@ const localVars = [
     {
 
         blogUrls: [
+            "/2024/11/front-end-framework-without-react-or.html",
             "/2024/11/reactjs-build-dynamic-hinting-feature.html",
             "/2024/10/javascript-tutorial-hijack-js-datepicker.html",
             "/2024/05/jwt-login-framework-2024-server-side.html",
