@@ -132,7 +132,7 @@ const localVars = [
                 "software": "JavaScript/React.js, CSS/Bootstrap, PHP-API",
                 "thumb": "img/cityDataAppThumb.jpg",
                 "youTube": "LdNmOeIJJNU",
-                "details": "Explore hiking trails, points of interest, parks, bus stops and so much more utilizing your town's open source data.",
+                "details": "Explore hiking trails, points of interest, parks, bus stops and so much more utilizing your town's open source data: <a href='https://mechanized-aesthetics.net/TEST/react-city-data/' target='_blank'>Vist site: https://mechanized-aesthetics.net/TEST/react-city-data/<a>",
                 "gitHub": "https://github.com/aaronrs2002",
                 "created": "2020"
             },
