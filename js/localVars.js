@@ -2,6 +2,7 @@ const localVars = [
     {
 
         blogUrls: [
+            "/2025/01/explore-suite-of-open-source-javascript.html",
             "/2025/01/javascript-time-clock-from-reactjs-to.html",
             "/2024/12/free-web-developer-invoice-generator.html",
             "/2024/12/web-developer-invoicing-intro.html",
