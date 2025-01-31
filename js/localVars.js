@@ -2,7 +2,6 @@ const localVars = [
     {
 
         blogUrls: [
-            "",
             "/2025/01/manage-tasks-time-tracking-for.html",
             "/2025/01/explore-suite-of-open-source-javascript.html",
             "/2025/01/javascript-time-clock-from-reactjs-to.html",
