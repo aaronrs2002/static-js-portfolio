@@ -2,6 +2,7 @@ const localVars = [
     {
 
         blogUrls: [
+            "/2025/02/javascript-serverless-web-apps-for-task.html",
             "/2025/02/javascript-finance-analysis-app-budget.html",
             "/2025/01/build-budgeting-app-with-javascript.html",
             "/2025/01/manage-tasks-time-tracking-for.html",
