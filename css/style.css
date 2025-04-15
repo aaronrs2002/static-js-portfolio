@@ -1946,9 +1946,10 @@ body[data-design="option-4"] {
 /*end 1199*/
 
 @media (max-width: 991px) {
-    div[id^="designPanel-"] {
-        display: none;
-    }
+    /*  div[id^="designPanel-"] {
+       display: none
+
+    };*/
 
     .modal {
         padding: 20px 10px;
@@ -2314,8 +2315,36 @@ body[data-design="option-4"] {
     }
 
     #designOptions {
-        margin-top: 20%;
+        margin-top: 75%;
+
     }
+
+    #designPanel-2 {
+        display: none;
+    }
+
+    #designPanel-1 ul li {
+
+        padding: .5rem 0rem .5rem 0rem;
+        ;
+    }
+
+
+    .checkmark {
+        /*  position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #eee;
+            border: 0.15px #eee solid;*/
+        border-radius: 0%;
+        height: 50px;
+        width: 10px;
+    }
+
+
+
 
     #navWrap h5,
     .thumbNail {
