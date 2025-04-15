@@ -30,7 +30,7 @@
     <script>
 
         const urlStr = window.location.href;
-        if (urlStr.indexOf("file:///Users/") !== -1 || urlStr.indexOf("exclude") !== -1 || localStorage.getItem("exclude")) {
+        if (urlStr.indexOf("file:///Users/") !== -1 || urlStr.indexOf("exclude") !== -1 || urlStr.indexOf(":3000") !== -1 || localStorage.getItem("exclude")) {
             console.log("Not running GA");
         } else {
             window.dataLayer = window.dataLayer || [];
