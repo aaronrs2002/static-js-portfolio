@@ -121,3 +121,12 @@ if (ua.indexOf('safari') !== -1) {
         document.addEventListener('webkitfullscreenchange', screenCallback);
     }
 }
+
+
+window.onscroll = function () {
+    document.getElementById("designOptions").classList.add("fadeOut");
+    setTimeout(() => {
+        document.getElementById("designOptions").classList.remove("fadeOut");
+        document.getElementById("designOptions").classList.add("fadeIn");
+    }, 3000);
+};
