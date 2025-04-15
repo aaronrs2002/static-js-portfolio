@@ -2316,6 +2316,7 @@ body[data-design="option-4"] {
 
     #designOptions {
         margin-top: 75%;
+        margin-left: -.5rem;
 
     }
 
@@ -2325,8 +2326,8 @@ body[data-design="option-4"] {
 
     #designPanel-1 ul li {
 
-        padding: .25rem 0rem .25rem 0rem;
-        ;
+        padding: .2rem 0rem .2rem 0rem;
+
     }
 
 
@@ -2340,7 +2341,7 @@ body[data-design="option-4"] {
             border: 0.15px #eee solid;*/
         border-radius: 0%;
         height: 50px;
-        width: 10px;
+        width: 13px;
     }
 
 

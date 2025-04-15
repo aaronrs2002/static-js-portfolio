@@ -123,10 +123,3 @@ if (ua.indexOf('safari') !== -1) {
 }
 
 
-window.onscroll = function () {
-    document.getElementById("designOptions").classList.add("fadeOut");
-    setTimeout(() => {
-        document.getElementById("designOptions").classList.remove("fadeOut");
-        document.getElementById("designOptions").classList.add("fadeIn");
-    }, 3000);
-};
