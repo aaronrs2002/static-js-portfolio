@@ -4,6 +4,7 @@
 
 body {
     font-size: 1.2rem;
+    overflow-x: hidden;
 }
 
 /*    START OPTION 1 BODY AND HEADERS */
