@@ -2,6 +2,7 @@ const localVars = [
     {
 
         blogUrls: [
+            "/2025/04/rss-feed-reader-without-ads-javascript.html",
             "/2025/03/free-no-login-crapsdice-game-built-with.html",
             "/2025/02/javascript-serverless-web-apps-for-task.html",
             "/2025/02/javascript-finance-analysis-app-budget.html",
