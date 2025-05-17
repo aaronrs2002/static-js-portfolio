@@ -2,7 +2,7 @@ const localVars = [
     {
 
         blogUrls: [
-            "/2025/05/any-restaurant-template-javascript_0732867543.html",
+            "/2025/05/any-restaurant-template-javascript_16.html",
             "/2025/05/any-restaurant-template-javascript.html",
             "/2025/05/restaurant-website-template-serverless.html",
             "/2025/04/rss-feed-reader-without-ads-javascript.html",
