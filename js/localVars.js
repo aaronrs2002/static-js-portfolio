@@ -2,6 +2,7 @@ const localVars = [
     {
 
         blogUrls: [
+            "/2025/07/any-restaurant-template-javascript_19.html",
             "/2025/07/any-restaurant-template-javascript.html",
             "/2025/06/any-restaurant-template-javascript_27.html",
             "/2025/06/cognitive-behavioral-therapy-cbt.html",
