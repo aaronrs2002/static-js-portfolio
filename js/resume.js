@@ -140,8 +140,8 @@ const skills = [
 
 
 function resumeDialog(module) {
-    window.location.href = "#resumeFocus";
-    document.querySelector("#resumeTarget").innerHTML = module;
+    window.location.href = "#resumeTarget";
+    document.querySelector("#resumeSelcted").innerHTML = module;
     //document.querySelector(".modal-dialog").classList.remove("hide");
     // document.querySelector(".modal.animated").classList.add("bounceIn");
     [].forEach.call(document.querySelectorAll("[data-resume]"), function (e) {

@@ -2572,6 +2572,11 @@ body.entered[data-design="option-4"]::before {
         left: -75px;
     }
 
+    .inline {
+        display: block;
+        width: 100%;
+
+    }
 }
 
 .teaserImg {
