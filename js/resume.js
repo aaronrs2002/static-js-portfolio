@@ -140,17 +140,25 @@ const skills = [
 
 
 function resumeDialog(module) {
-    document.querySelector(".modal-dialog").classList.remove("hide");
-    document.querySelector(".modal.animated").classList.add("bounceIn");
+    window.location.href = "#resumeFocus";
+    document.querySelector("#resumeTarget").innerHTML = module;
+    //document.querySelector(".modal-dialog").classList.remove("hide");
+    // document.querySelector(".modal.animated").classList.add("bounceIn");
     [].forEach.call(document.querySelectorAll("[data-resume]"), function (e) {
         e.classList.add("hide");
     });
 
-    [].forEach.call(document.querySelectorAll(".modal-header .btn-group .btn"), function (e) {
-        e.classList.remove("active");
+    [].forEach.call(document.querySelectorAll("[data-resumebt]"), function (e) {
+        if (e.dataset.resumebt === module) {
+            e.classList.add("active");
+            //e.style.color = '#fff';
+        } else {
+            e.classList.remove("active");
+        }
+
     })
 
-    document.querySelector(".modal-header .btn-group .btn[alt='" + module + "']").classList.add("active");
+    // document.querySelector(".modal-header .btn-group .btn[alt='" + module + "']").classList.add("active");
     document.querySelector("[data-resume='" + module + "']").classList.remove("hide");
 }
 

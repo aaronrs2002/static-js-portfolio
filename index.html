@@ -175,13 +175,14 @@
             </div>
 
 
-            <div class="col-md-12">
+            <div class="col-md-12" id="resumeFocus">
 
 
 
 
             </div>
-            <div class="card imgFrame mb-4 shadow-sm" onClick="javascript:resumeDialog('experience')">
+            <div class="card imgFrame mb-4 shadow-sm active" data-resumebt="experience"
+                onClick="javascript:resumeDialog('experience')">
                 <div class="card-header">
                     <h2 class="my-0 font-weight-normal  capitalize">experience</h2>
                 </div>
@@ -191,7 +192,8 @@
                         class="btn btn-lg btn-block btn-outline-primary">More Info</button>
                 </div>
             </div>
-            <div class="card imgFrame mb-4 shadow-sm" onClick="javascript:resumeDialog('skills')">
+            <div class="card imgFrame mb-4 shadow-sm" data-resumebt="skills"
+                onClick="javascript:resumeDialog('skills')">
                 <div class="card-header">
                     <h2 class="my-0 font-weight-normal  capitalize">skills</h2>
                 </div>
@@ -201,7 +203,8 @@
                     <button type="button" class="btn btn-lg btn-block btn-outline-primary">More Info</button>
                 </div>
             </div>
-            <div class="card imgFrame mb-4 shadow-sm" onClick="javascript:resumeDialog('education')">
+            <div class="card imgFrame mb-4 shadow-sm" data-resumebt="education"
+                onClick="javascript:resumeDialog('education')">
                 <div class="card-header">
                     <h2 class="my-0 font-weight-normal  capitalize">education</h2>
                 </div>
@@ -213,6 +216,18 @@
             </div>
 
 
+
+        </div>
+
+        <div class="row">
+
+            <div class="card imgFrameDetails col-md-12 ">
+                <h2 id="resumeTarget" class="text-capitalize">Experience</h2>
+                <hr />
+                <div data-resume="experience" class="card-body"></div>
+                <div data-resume="skills" class="hide card-body"></div>
+                <div data-resume="education" class="hide card-body"></div>
+            </div>
         </div>
 
         <div class="row  animated hide" data-module="contact">
@@ -281,7 +296,7 @@
     </footer>
 
 
-    <div class="modal-dialog hide" alt="Small business software solutions">
+    <!--   <div class="modal-dialog hide" alt="Small business software solutions">
         <div class="modal animated ">
             <div class="modal-dialog-scrollable">
                 <div class="modal-content">
@@ -316,7 +331,7 @@
             </div>
         </div>
         <div class="modal-backdrop fade show"></div>
-    </div>
+    </div>-->
 
 
 </body>
