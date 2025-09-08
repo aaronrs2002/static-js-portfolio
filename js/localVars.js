@@ -224,7 +224,7 @@ const localVars = [
                 "software": "Vanilla JavaScript, Bootstrap/CSS",
                 "thumb": "img/freeGamesThumb.jpg",
                 "youTube": "MrsOwvHgW48",
-                "details": "Discover a collection of free-to-play JavaScript games that require no installation or login! Play classics like Blackjack/21, Five-Card Draw Poker, Texas Hold'em Poker, Word Trivia, Bingo, and a Slot Machine. Accessible from any device. <a href='https://aaronrs2002.github.io/black-jack/' target='_blank' >Play free on gitHub.</a>",
+                "details": "Discover a collection of free-to-play JavaScript games that require no installation or login! Play classics like  <a href='https://aaronrs2002.github.io/black-jack/' target='_blank' >Blackjack/21</a>,  <a href='https://aaronrs2002.github.io/poker/' target='_blank' >Five-Card Draw Poker</a>, <a href='https://aaronrs2002.github.io/texas-holdem/' target='_blank' >Texas Hold'em Poker</a>, <a href='https://aaronrs2002.github.io/word-game/' target='_blank' >Word Trivia</a>,  <a href='https://aaronrs2002.github.io/bingo/' target='_blank' >Bingo</a>, and a  <a href='https://aaronrs2002.github.io/javascript-slot-machine/' target='_blank' >Slot Machine</a>. Accessible from any device. <a href='https://github.com/aaronrs2002' target='_blank' >Play free on gitHub.</a>",
                 "gitHub": "https://github.com/aaronrs2002/black-jack",
                 "created": "2023"
             }
