@@ -2124,7 +2124,7 @@ body[data-design="option-4"] {
 
     /* OPTION-1 START */
     .card:nth-child(odd) {
-        background-color: #f8f8f8;
+        background-color: transparent;
         /* border-top: 5px #ddd solid;
     border-bottom: 5px #ddd solid;*/
     }
@@ -2170,9 +2170,9 @@ body[data-design="option-4"] {
     }
 
     [data-design="option-2"] .card:nth-child(odd) {
-        background-color: #000;
-        border-top: 5px #000 solid;
-        border-bottom: 5px #000 solid;
+        background-color: transparent;
+        /*border-top: 5px #000 solid;
+        border-bottom: 5px #000 solid;*/
     }
 
     [data-design="option-2"] nav a[data-portfolio],
