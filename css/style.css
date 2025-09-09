@@ -2325,12 +2325,12 @@ body[data-design="option-4"] {
         background-color: transparent;
     }
 
-    [data-design="option-4"] .card:nth-child(odd) {
+    /*[data-design="option-4"] .card:nth-child(odd) {
         background-color: #666565;
-        /*border-bottom: #800000 10px solid;
+     border-bottom: #800000 10px solid;
     border-top: #800000 10px solid;
-        color: #fff;*/
-    }
+        color: #fff;
+    }*/
 
     [data-design="option-4"] nav a[data-portfolio] {
         padding: 1rem 1.6rem;
