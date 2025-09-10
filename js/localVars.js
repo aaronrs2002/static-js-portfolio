@@ -161,7 +161,7 @@ const localVars = [
                 "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
                 "thumb": "img/workoutAppThumb.jpg",
                 "youTube": "5h0IGywR23s",
-                "details": "Log and analyze your nutritional intake vs calories burned while monitoring your progress. Plus, learn from professional trainers.",
+                "details": "Log and analyze your nutritional intake vs calories burned while monitoring your weightlifting and or aerobic exercise progress. Plus, learn from professional trainers.",
                 "gitHub": "https://github.com/aaronrs2002/",
                 "created": "2021"
             },
