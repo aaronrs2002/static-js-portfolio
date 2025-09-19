@@ -2390,7 +2390,7 @@ body[data-design="option-4"] {
     }
 
     #designOptions {
-        margin-top: 75%;
+        /*   margin-top: 75%;*/
         margin-left: -.5rem;
 
     }
