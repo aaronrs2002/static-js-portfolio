@@ -195,12 +195,12 @@ const localVars = [
 
             {
                 "name": "Custom Homepage",
-                "software": "React.js, Google-Firebase, Bootstrap/CSS, Authentication, PHP-Rest-API",
+                "software": "Vanilla JavaScript and PHP",
                 "thumb": "img/customHomePageThumb.jpg",
                 "youTube": "LSzs0jtbXpI",
-                "details": "Custom Homepage Web App  - RSS feed API, YouTube API, weather API, custom themes, secure login, custom links with search filter, google calendar and responsive layout for all devices",
-                "gitHub": "https://github.com/aaronrs2002/",
-                "created": "2019"
+                "details": "A personalized homepage application that brings together news, videos, and weather in one place. It has an RSS service built with PHP and is also powered by the YouTube API and a weather API, it supports multiple Bootswatch themes and a fully responsive design for all devices. Users can create and filter custom links, run quick searches into Rotten Tomatoes or Wikipedia results, and manage content through a lightweight CMS. The app requires no login—data is stored locally in the browser, with options to download or upload for easy backup and transfer.",
+                "gitHub": "https://github.com/aaronrs2002/static-homepage",
+                "created": "2025"
             },
             {
                 "name": "Web Template with CMS",
