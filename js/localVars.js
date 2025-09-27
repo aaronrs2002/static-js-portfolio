@@ -229,5 +229,5 @@ const localVars = [
                 "created": "2023"
             }
         ],
-        blocked: ["harshitb2712@gmail.com", "donfrenette@yahoo.com", "jgknutson57@gmail.com"],
+        blocked: ["harshitb2712@gmail.com", "donfrenette@yahoo.com", "jgknutson57@gmail.com", "ednajohnson6918@gmail.com"],
     }]; 
