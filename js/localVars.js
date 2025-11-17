@@ -1,7 +1,7 @@
 const localVars = [
     {
-
         blogUrls: [
+            "/2025/11/new-game-features-for-texas-holdem-and.html",
             "/2025/10/mobile-webkit-rendering-bug-on-explains.html",
             "/2025/09/build-free-restaurant-website-multi.html",
             "/2025/07/any-restaurant-template-javascript_28.html",
