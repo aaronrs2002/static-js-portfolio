@@ -226,46 +226,23 @@
                     Since 2018, I've been writing Software as a Service (SaaS), leveraging my diverse skill set to bring
                     my products to life.</p>
 
-            </div>
 
 
-            <div class="col-md-12" id="resumeFocus">
+                <div class="col-md-12" id="resumeFocus">
+                    <div class="row" role="group">
+                        <button class="btn btn-primary capitalize col-4 py-2 ml-0"
+                            onClick="javascript:resumeDialog('experience')">experience - <i
+                                class="fas fa-building"></i></button>
+                        <button class="btn btn-primary  capitalize col-4  py-2 ml-0"
+                            onClick="javascript:resumeDialog('skills')">skills
+                            - <i class="fas fa-laptop-code"></i></button>
+                        <button class="btn btn-primary capitalize col-4  py-2 ml-0"
+                            onClick="javascript:resumeDialog('education')">education - <i
+                                class="fas fa-graduation-cap"></i></button>
+                    </div>
 
 
 
-
-            </div>
-            <div class="card imgFrame mb-4 shadow-sm active" data-resumebt="experience"
-                onClick="javascript:resumeDialog('experience')">
-                <div class="card-header">
-                    <h2 class="my-0 font-weight-normal  capitalize">experience</h2>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title"><i class="fas fa-building"></i></h1>
-                    <ul class="list-unstyled mt-3 mb-4" id="experienceList"></ul><button type="button"
-                        class="btn btn-lg btn-block btn-outline-primary">More Info</button>
-                </div>
-            </div>
-            <div class="card imgFrame mb-4 shadow-sm" data-resumebt="skills"
-                onClick="javascript:resumeDialog('skills')">
-                <div class="card-header">
-                    <h2 class="my-0 font-weight-normal  capitalize">skills</h2>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title"><i class="fas fa-laptop-code"></i></h1>
-                    <ul class="list-unstyled mt-3 mb-4" id="skillsList"></ul>
-                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">More Info</button>
-                </div>
-            </div>
-            <div class="card imgFrame mb-4 shadow-sm" data-resumebt="education"
-                onClick="javascript:resumeDialog('education')">
-                <div class="card-header">
-                    <h2 class="my-0 font-weight-normal  capitalize">education</h2>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title"><i class="fas fa-graduation-cap"></i></h1>
-                    <ul class="list-unstyled mt-3 mb-4" id="educationList"></ul>
-                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">More Info</button>
                 </div>
             </div>
 
@@ -276,11 +253,17 @@
         <div class="row hide" data-module="resume" id="resumeTarget">
 
             <div class="card imgFrameDetails col-md-12">
-                <h2 id="resumeSelcted" class="text-capitalize">Experience</h2>
+                <h2 class="text-capitalize">Experience</h2>
                 <hr />
                 <div data-resume="experience" class="card-body"></div>
-                <div data-resume="skills" class="hide card-body"></div>
-                <div data-resume="education" class="hide card-body"></div>
+
+                <h2 class="text-capitalize">Skills</h2>
+                <hr />
+                <div data-resume="skills" class="hcard-body"></div>
+
+                <h2 class="text-capitalize">education</h2>
+                <hr />
+                <div data-resume="education" class="card-body"></div>
             </div>
         </div>
     </div>

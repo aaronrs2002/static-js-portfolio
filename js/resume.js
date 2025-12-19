@@ -140,13 +140,17 @@ const skills = [
 
 
 function resumeDialog(module) {
-    window.location.href = "#resumeTarget";
-    document.querySelector("#resumeSelcted").innerHTML = module;
-    //document.querySelector(".modal-dialog").classList.remove("hide");
-    // document.querySelector(".modal.animated").classList.add("bounceIn");
-    [].forEach.call(document.querySelectorAll("[data-resume]"), function (e) {
-        e.classList.add("hide");
-    });
+
+    document
+        .querySelector("[data-resume='" + module + "']")
+        .scrollIntoView({ behavior: "smooth" });
+    /* window.location.href = "#resumeTarget";
+     document.querySelector("#resumeSelcted").innerHTML = module;
+     //document.querySelector(".modal-dialog").classList.remove("hide");
+     // document.querySelector(".modal.animated").classList.add("bounceIn");
+     /*[].forEach.call(document.querySelectorAll("[data-resume]"), function (e) {
+         e.classList.add("hide");
+     });*/
 
     [].forEach.call(document.querySelectorAll("[data-resumebt]"), function (e) {
         if (e.dataset.resumebt === module) {
@@ -159,14 +163,14 @@ function resumeDialog(module) {
     })
 
     // document.querySelector(".modal-header .btn-group .btn[alt='" + module + "']").classList.add("active");
-    document.querySelector("[data-resume='" + module + "']").classList.remove("hide");
+    //document.querySelector("[data-resume='" + module + "']").classList.remove("hide");
 }
 
 function closeDialog() {
     document.querySelector(".modal-dialog").classList.add("hide");
     document.querySelector(".modal.animated").classList.remove("bounceIn");
 }
-//EDUCATION CARD
+/*//EDUCATION CARD
 let educationHTML = "";
 for (let i = 0; i < education.length; i++) {
     educationHTML = educationHTML + "<li>" + education[i].school + "</li>"
@@ -183,7 +187,7 @@ let experienceHTML = "";
 for (let i = 0; i < experience.length; i++) {
     experienceHTML = experienceHTML + "<li>" + experience[i].employer + "</li>"
 }
-document.getElementById("experienceList").innerHTML = experienceHTML;
+document.getElementById("experienceList").innerHTML = experienceHTML;*/
 
 //START EXPERIENCE JS
 const openUl = "<ul class='list-unstyled mt-3 mb-4 fadeIn animated'>";

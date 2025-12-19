@@ -14,7 +14,9 @@ for (let i = 0; i < navLinks.length; i++) {
 document.getElementById("mainNavLinksTarget").innerHTML = navHTML;
 document.getElementById("landingPgLinksTarget").innerHTML = navHTML;
 
-
+if (!localStorage.getItem("activeModule")) {
+    localStorage.setItem("activeModule", "applications");
+}
 
 function showModule(module) {
     if (document.querySelector("body.entered") === null) {
@@ -57,6 +59,10 @@ function showModule(module) {
     } else {
         document.getElementById("blogButtons").classList.add("hide");
     }
+}
+
+if (localStorage.getItem("activeModule")) {
+    showModule("applications");
 }
 
 const runForSEO = () => {
