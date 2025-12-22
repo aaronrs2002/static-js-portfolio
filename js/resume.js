@@ -30,7 +30,7 @@ const experience = [
             "UI/UX Design",
             "Client side: CSS, Vanilla JavaScript, React JS and Bootstrap Framework",
             "Server Side: Node.js, PHP, Google Firebase, MySQL or MongoDB",
-            "Building unique functionality based on each client's individual requirements.",
+            "Building custom solutions based on each client's individual requirements.",
         ],
     },
 
