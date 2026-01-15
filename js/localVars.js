@@ -1,6 +1,7 @@
 const localVars = [
     {
         blogUrls: [
+            "/2026/01/javascript-texas-holdem-refactor-state.html",
             "/2025/12/javascript-lesson-multiple-image-video.html",
             "/2025/11/new-game-features-for-texas-holdem-and.html",
             "/2025/10/mobile-webkit-rendering-bug-on-explains.html",
