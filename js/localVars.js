@@ -1,6 +1,7 @@
 const localVars = [
     {
         blogUrls: [
+            "2026/02/smarter-poker-ai-in-javascript-texas.html",
             "/2026/01/javascript-texas-holdem-refactor-state.html",
             "/2025/12/javascript-lesson-multiple-image-video.html",
             "/2025/11/new-game-features-for-texas-holdem-and.html",
