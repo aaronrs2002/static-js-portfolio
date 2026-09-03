@@ -1,6 +1,7 @@
 const localVars = [
     {
         blogUrls: [
+            "/2026/09/javascript-event-and-profile-modules.html",
             "/2026/08/vanilla-javascript-budget-app.html",
             "/2026/03/javascript-battleship-game-with-ai.html",
             "/2026/02/smarter-poker-ai-in-javascript-texas.html",
