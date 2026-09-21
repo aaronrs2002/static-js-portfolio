@@ -26,7 +26,7 @@ body {
 body[data-design="option-1"] {
     font-family: "Oswald", sans-serif !important;
     font-size: 1.2rem;
-    padding-top: 90px;
+    /*padding-top: 90px;*/
     max-width: 100%;
     overflow-x: hidden;
     background-image: url("../img/18.jpg");
@@ -154,8 +154,8 @@ body[data-design="option-2"] .card-deck .card {
 body[data-design="option-3"] {
     font-family: "Saira Extra Condensed", sans-serif;
     /*font-family: "Josefin Slab", serif;
-  font-family: "Oswald", sans-serif !important;*/
-    padding-top: 90px;
+  font-family: "Oswald", sans-serif !important;
+    padding-top: 90px;*/
     max-width: 100%;
     overflow-x: hidden;
     /* background: url("../img/13.jpg");*/
@@ -237,7 +237,7 @@ body[data-design="option-4"] {
     font-family: "Yanone Kaffeesatz", sans-serif;
     text-transform: uppercase;
     font-size: 1.2rem;
-    padding-top: 90px;
+    /* padding-top: 90px;*/
     max-width: 100%;
     overflow-x: hidden;
     background-image: none;
