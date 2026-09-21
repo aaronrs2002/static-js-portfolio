@@ -2090,9 +2090,9 @@ body[data-design="option-4"] {
         padding-bottom: 10px;
     }
 
-    body {
+    /*body {
         padding-top: 45px;
-    }
+    }*/
 
     .modal-dialog {
         margin-top: 0px;
@@ -2151,7 +2151,7 @@ body[data-design="option-4"] {
     }
 
     body[data-design="option-1"] {
-        padding-top: 50px;
+        padding-top: 0px;
     }
 
     body[data-design="option-1"] .navbar-brand img {
