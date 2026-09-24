@@ -675,7 +675,7 @@ a[data-movienum] label {
 }
 
 .mediaStage {
-    padding-bottom: 150px;
+    padding-bottom: 25px;
 }
 
 body[data-design="option-1"] .mediaStage,
