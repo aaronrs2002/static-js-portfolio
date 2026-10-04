@@ -175,9 +175,9 @@ body[data-design="option-3"] .card-header,
 body[data-design="option-3"] small,
 body[data-design="option-3"] .nav-link,
 body[data-design="option-3"] nav a[data-portfolio] {
-    font-family: "Marcellus SC", serif;
-    /*font-family: "Luckiest Guy", cursive;
-  font-family: "Passion One", cursive;*/
+    /*font-family: "Marcellus SC", serif;
+   font-family: "Luckiest Guy", cursive;*/
+    font-family: "Passion One", cursive;
 }
 
 body[data-design="option-3"] h1 {
@@ -1435,7 +1435,8 @@ body[data-design="option-3"] #designPanel-2 label {
 [data-design="option-3"] h3,
 [data-design="option-3"] h4,
 [data-design="option-3"] h5,
-[data-design="option-3"] nav a.active[data-portfolio] {
+[data-design="option-3"] nav a.active[data-portfolio],
+[data-design="option-3"] [data-resumeli="skills"] {
     color: #fff;
 }
 
@@ -1572,7 +1573,7 @@ body[data-design="option-3"] .active[data-resumebt] {
     background-position: 100% 0%;
     background-size: 100% 200%;
     transition: all 0.2s ease-in;
-    color: #000 !important;
+    /* color: #000 !important;*/
 
     -webkit-filter: grayscale(0);
 
