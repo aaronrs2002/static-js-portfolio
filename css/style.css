@@ -147,7 +147,7 @@ body[data-design="option-2"] .card-header {
 }
 
 body[data-design="option-2"] .card-deck .card {
-    background-color: #737373;
+    /* background-color: #737373;*/
 }
 
 /*    START OPTION 3 BODY AND HEADERS */
@@ -1384,9 +1384,9 @@ body[data-design="option-2"] {
 
 [data-design="option-2"] .modal-content,
 [data-design="option-2"] .card[data-info="career"] {
-    background-color: #333;
+    /* background-color: #333;*/
     background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    /*border: 1px solid rgba(0, 0, 0, 0.2);*/
     border-radius: 0rem;
     color: #fff;
 }
