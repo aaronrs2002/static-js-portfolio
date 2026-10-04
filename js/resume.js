@@ -141,16 +141,16 @@ const skills = [
 
 function resumeDialog(module) {
 
-    document
-        .querySelector("[data-resume='" + module + "']")
-        .scrollIntoView({ behavior: "smooth" });
-    /* window.location.href = "#resumeTarget";
-     document.querySelector("#resumeSelcted").innerHTML = module;
-     //document.querySelector(".modal-dialog").classList.remove("hide");
-     // document.querySelector(".modal.animated").classList.add("bounceIn");
-     /*[].forEach.call(document.querySelectorAll("[data-resume]"), function (e) {
-         e.classList.add("hide");
-     });*/
+    /* document
+         .querySelector("[data-resume='" + module + "']")
+         .scrollIntoView({ behavior: "smooth" });
+      window.location.href = "#resumeTarget";
+      document.querySelector("#resumeSelcted").innerHTML = module;
+      //document.querySelector(".modal-dialog").classList.remove("hide");
+      // document.querySelector(".modal.animated").classList.add("bounceIn");*/
+    [].forEach.call(document.querySelectorAll("[data-resumeLi]"), function (e) {
+        e.classList.add("hide");
+    });
 
     [].forEach.call(document.querySelectorAll("[data-resumebt]"), function (e) {
         if (e.dataset.resumebt === module) {
@@ -163,7 +163,7 @@ function resumeDialog(module) {
     })
 
     // document.querySelector(".modal-header .btn-group .btn[alt='" + module + "']").classList.add("active");
-    //document.querySelector("[data-resume='" + module + "']").classList.remove("hide");
+    document.querySelector("[data-resumeLi='" + module + "']").classList.remove("hide");
 }
 
 function closeDialog() {
