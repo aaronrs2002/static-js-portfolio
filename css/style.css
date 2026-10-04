@@ -1048,6 +1048,13 @@ body[data-design="option-1"] .active[data-resumebt] {
 
     background-position: 0 -100%;
     -webkit-filter: grayscale(0);
+
+    will-change: filter, transform;
+    transform: translateZ(0);
+
+    -webkit-filter: grayscale(0);
+
+    filter: drop-shadow(0 0 0.2rem #333);
 }
 
 body[data-design="option-1"] .active[data-resumebt] .btn [data-design="option-1"] #items .card-header.fadeDark {
@@ -1271,6 +1278,13 @@ body[data-design="option-2"] .active[data-resumebt] {
     filter: none;
     background-image: linear-gradient(to bottom, #fff, #595959);
     background-position: 0 -100%;
+
+    will-change: filter, transform;
+    transform: translateZ(0);
+
+    -webkit-filter: grayscale(0);
+
+    filter: drop-shadow(0 0 0.2rem #333);
 }
 
 body[data-design="option-2"] .imgFrame:hover {
@@ -1584,6 +1598,9 @@ body[data-design="option-3"] .active[data-resumebt] {
     transition: all 0.2s ease-in;
     /* color: #000 !important;*/
 
+    will-change: filter, transform;
+    transform: translateZ(0);
+
     -webkit-filter: grayscale(0);
 
     filter: drop-shadow(0 0 0.2rem #333);
@@ -1868,6 +1885,11 @@ body[data-design="option-4"] .active[data-resumebt] {
             #800000);
     background-position: 100% 0%;
     background-size: 100% 200%;
+
+    will-change: filter, transform;
+    transform: translateZ(0);
+
+
     transition: all 0.2s ease-in;
     filter: drop-shadow(0 0 0.2rem #000);
 
