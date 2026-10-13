@@ -477,7 +477,7 @@ form .form-group ul {
 }
 
 .card {
-    cursor: pointer;
+    /* cursor: pointer;*/
     border-radius: 0px;
     min-height: 325px;
     border: 0px;
