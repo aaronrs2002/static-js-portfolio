@@ -179,7 +179,7 @@ const localVars = [
                 "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
                 "thumb": "img/balanceSheet.jpg",
                 "youTube": "tTz-xUFpU54",
-                "details": "Import Bank Files, Analyze Income and Expenses, Generate Work Orders, Track Hours on any device.",
+                "details": "Import Bank Files, Analyze Income and Expenses, Generate Work Orders, Track Hours on any device. Test drive the web application: <a href='https://aaronrs2002.github.io/budget-app/' target='_blank'>https://aaronrs2002.github.io/budget-app/</a>",
                 "gitHub": "https://github.com/aaronrs2002/",
                 "created": "2022"
             },
@@ -197,7 +197,7 @@ const localVars = [
                 "software": "React.js, Node.js, MongoDB, Bootstrap/CSS, Google-Oauth",
                 "thumb": "img/recipeThumb.jpg",
                 "youTube": "1Lw8QvlMfBY",
-                "details": "Add, share and leave comment for your favorite recipes. All you need is a Gmail account.",
+                "details": "Add, share and leave comment for your favorite recipes. All you need is a Gmail account. Here is the site: <href='https://online-recipe-app.herokuapp.com/' target='_blank'>https://online-recipe-app.herokuapp.com/</a> ",
                 "gitHub": "https://github.com/aaronrs2002/",
                 "created": "2019"
             },
