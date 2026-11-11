@@ -179,7 +179,7 @@ const localVars = [
                 "software": "Bootstrap/CSS, JWT-Login, MySQL, Node.js, React.js",
                 "thumb": "img/balanceSheet.jpg",
                 "youTube": "tTz-xUFpU54",
-                "details": "Import Bank Files, Analyze Income and Expenses, Generate Work Orders, Track Hours on any device. Test drive the web application: <a href='https://aaronrs2002.github.io/budget-app/?src=portfolio' target='_blank'>https://aaronrs2002.github.io/budget-app/</a>",
+                "details": "Import Bank Files, Analyze Income and Expenses, Generate Work Orders, Track Hours on any device. Test drive the public web application: <a href='https://aaronrs2002.github.io/budget-app/?src=portfolio' target='_blank'>https://aaronrs2002.github.io/budget-app/</a>",
                 "gitHub": "https://github.com/aaronrs2002/",
                 "created": "2022"
             },
